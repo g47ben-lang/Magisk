@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.settings
+package com.koshertech.su.ui.settings
 
 import android.content.Context
 import android.content.res.Resources
@@ -6,24 +6,24 @@ import android.os.Build
 import android.view.LayoutInflater
 import android.view.View
 import androidx.databinding.Bindable
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.ktx.activity
-import com.topjohnwu.magisk.core.tasks.AppMigration
-import com.topjohnwu.magisk.core.utils.LocaleSetting
-import com.topjohnwu.magisk.core.utils.MediaStoreUtils
-import com.topjohnwu.magisk.core.utils.TextHolder
-import com.topjohnwu.magisk.core.utils.asText
-import com.topjohnwu.magisk.databinding.DialogSettingsAppNameBinding
-import com.topjohnwu.magisk.databinding.DialogSettingsDownloadPathBinding
-import com.topjohnwu.magisk.databinding.DialogSettingsUpdateChannelBinding
-import com.topjohnwu.magisk.databinding.set
-import com.topjohnwu.magisk.view.MagiskDialog
+import com.koshertech.su.BR
+import com.koshertech.su.R
+import com.koshertech.su.core.Config
+import com.koshertech.su.core.Const
+import com.koshertech.su.core.Info
+import com.koshertech.su.core.ktx.activity
+import com.koshertech.su.core.tasks.AppMigration
+import com.koshertech.su.core.utils.LocaleSetting
+import com.koshertech.su.core.utils.MediaStoreUtils
+import com.koshertech.su.core.utils.TextHolder
+import com.koshertech.su.core.utils.asText
+import com.koshertech.su.databinding.DialogSettingsAppNameBinding
+import com.koshertech.su.databinding.DialogSettingsDownloadPathBinding
+import com.koshertech.su.databinding.DialogSettingsUpdateChannelBinding
+import com.koshertech.su.databinding.set
+import com.koshertech.su.view.MagiskDialog
 import com.topjohnwu.superuser.Shell
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.core.R as CoreR
 
 // --- Customization
 

@@ -1,22 +1,22 @@
-package com.topjohnwu.magisk.ui.module
+package com.koshertech.su.ui.module
 
 import android.content.Context
 import android.net.Uri
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
-import com.topjohnwu.magisk.arch.AsyncLoadViewModel
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.R as CoreR
-import com.topjohnwu.magisk.core.download.Subject
-import com.topjohnwu.magisk.core.model.module.LocalModule
-import com.topjohnwu.magisk.core.model.module.OnlineModule
-import com.topjohnwu.magisk.core.utils.TextHolder
-import com.topjohnwu.magisk.core.utils.asText
-import com.topjohnwu.magisk.ui.flash.FlashUtils
-import com.topjohnwu.magisk.ui.navigation.Route
-import com.topjohnwu.magisk.view.Notifications
+import com.koshertech.su.arch.AsyncLoadViewModel
+import com.koshertech.su.core.Const
+import com.koshertech.su.core.Info
+import com.koshertech.su.core.R as CoreR
+import com.koshertech.su.core.download.Subject
+import com.koshertech.su.core.model.module.LocalModule
+import com.koshertech.su.core.model.module.OnlineModule
+import com.koshertech.su.core.utils.TextHolder
+import com.koshertech.su.core.utils.asText
+import com.koshertech.su.ui.flash.FlashUtils
+import com.koshertech.su.ui.navigation.Route
+import com.koshertech.su.view.Notifications
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

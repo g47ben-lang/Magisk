@@ -1,18 +1,18 @@
-package com.topjohnwu.magisk.ui.module
+package com.koshertech.su.ui.module
 
 import androidx.databinding.Bindable
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.model.module.LocalModule
-import com.topjohnwu.magisk.core.utils.TextHolder
-import com.topjohnwu.magisk.core.utils.asText
-import com.topjohnwu.magisk.databinding.DiffItem
-import com.topjohnwu.magisk.databinding.ItemWrapper
-import com.topjohnwu.magisk.databinding.ObservableRvItem
-import com.topjohnwu.magisk.databinding.RvItem
-import com.topjohnwu.magisk.databinding.set
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.BR
+import com.koshertech.su.R
+import com.koshertech.su.core.Info
+import com.koshertech.su.core.model.module.LocalModule
+import com.koshertech.su.core.utils.TextHolder
+import com.koshertech.su.core.utils.asText
+import com.koshertech.su.databinding.DiffItem
+import com.koshertech.su.databinding.ItemWrapper
+import com.koshertech.su.databinding.ObservableRvItem
+import com.koshertech.su.databinding.RvItem
+import com.koshertech.su.databinding.set
+import com.koshertech.su.core.R as CoreR
 
 object InstallModule : RvItem(), DiffItem<InstallModule> {
     override val layoutRes = R.layout.item_module_download

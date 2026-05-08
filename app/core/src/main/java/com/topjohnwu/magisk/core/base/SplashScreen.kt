@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.base
+package com.koshertech.su.core.base
 
 import android.Manifest.permission.REQUEST_INSTALL_PACKAGES
 import android.os.Bundle
@@ -6,21 +6,21 @@ import androidx.activity.ComponentActivity
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
-import com.topjohnwu.magisk.StubApk
-import com.topjohnwu.magisk.core.BuildConfig
-import com.topjohnwu.magisk.core.BuildConfig.APP_PACKAGE_NAME
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.JobService
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.core.di.ServiceLocator
-import com.topjohnwu.magisk.core.isRunningAsStub
-import com.topjohnwu.magisk.core.ktx.writeTo
-import com.topjohnwu.magisk.core.tasks.AppMigration
-import com.topjohnwu.magisk.core.utils.RootUtils
-import com.topjohnwu.magisk.view.Notifications
-import com.topjohnwu.magisk.view.Shortcuts
+import com.koshertech.su.StubApk
+import com.koshertech.su.core.BuildConfig
+import com.koshertech.su.core.BuildConfig.APP_PACKAGE_NAME
+import com.koshertech.su.core.Config
+import com.koshertech.su.core.Const
+import com.koshertech.su.core.Info
+import com.koshertech.su.core.JobService
+import com.koshertech.su.core.R
+import com.koshertech.su.core.di.ServiceLocator
+import com.koshertech.su.core.isRunningAsStub
+import com.koshertech.su.core.ktx.writeTo
+import com.koshertech.su.core.tasks.AppMigration
+import com.koshertech.su.core.utils.RootUtils
+import com.koshertech.su.view.Notifications
+import com.koshertech.su.view.Shortcuts
 import com.topjohnwu.superuser.Shell
 import kotlinx.coroutines.launch
 import timber.log.Timber
@@ -102,7 +102,7 @@ class SplashController<T>(private val activity: T)
 
         if (packageName != APP_PACKAGE_NAME) {
             runCatching {
-                // Hidden, remove com.topjohnwu.magisk if exist as it could be malware
+                // Hidden, remove com.koshertech.su if exist as it could be malware
                 packageManager.getApplicationInfo(APP_PACKAGE_NAME, 0)
                 Shell.cmd("(pm uninstall $APP_PACKAGE_NAME)& >/dev/null 2>&1").exec()
             }

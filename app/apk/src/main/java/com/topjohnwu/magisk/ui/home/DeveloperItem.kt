@@ -1,9 +1,9 @@
-package com.topjohnwu.magisk.ui.home
+package com.koshertech.su.ui.home
 
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.databinding.RvItem
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.R
+import com.koshertech.su.core.Const
+import com.koshertech.su.databinding.RvItem
+import com.koshertech.su.core.R as CoreR
 
 interface Dev {
     val name: String

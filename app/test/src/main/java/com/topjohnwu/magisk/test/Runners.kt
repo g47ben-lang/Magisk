@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.test
+package com.koshertech.su.test
 
 import android.os.Bundle
 import androidx.test.platform.app.InstrumentationRegistry
@@ -10,7 +10,7 @@ open class TestRunner : AndroidJUnitRunner() {
         arguments.getString("class")?.let {
             val classArg = it.split(",").joinToString(separator = ",") { clz ->
                 if (clz.startsWith(".")) {
-                    "com.topjohnwu.magisk.test$clz"
+                    "com.koshertech.su.test$clz"
                 } else {
                     clz
                 }

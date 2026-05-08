@@ -1,8 +1,8 @@
-package com.topjohnwu.magisk.core.data
+package com.koshertech.su.core.data
 
-import com.topjohnwu.magisk.core.model.ModuleJson
-import com.topjohnwu.magisk.core.model.Release
-import com.topjohnwu.magisk.core.model.UpdateJson
+import com.koshertech.su.core.model.ModuleJson
+import com.koshertech.su.core.model.Release
+import com.koshertech.su.core.model.UpdateJson
 import okhttp3.ResponseBody
 import retrofit2.Response
 import retrofit2.http.GET

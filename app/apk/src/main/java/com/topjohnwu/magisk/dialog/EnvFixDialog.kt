@@ -1,17 +1,17 @@
-package com.topjohnwu.magisk.dialog
+package com.koshertech.su.dialog
 
 import android.widget.Toast
 import androidx.core.os.postDelayed
 import androidx.lifecycle.lifecycleScope
-import com.topjohnwu.magisk.core.BuildConfig
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.core.ktx.reboot
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.core.tasks.MagiskInstaller
-import com.topjohnwu.magisk.events.DialogBuilder
-import com.topjohnwu.magisk.ui.home.HomeViewModel
-import com.topjohnwu.magisk.view.MagiskDialog
+import com.koshertech.su.core.BuildConfig
+import com.koshertech.su.core.Info
+import com.koshertech.su.core.R
+import com.koshertech.su.core.ktx.reboot
+import com.koshertech.su.core.ktx.toast
+import com.koshertech.su.core.tasks.MagiskInstaller
+import com.koshertech.su.events.DialogBuilder
+import com.koshertech.su.ui.home.HomeViewModel
+import com.koshertech.su.view.MagiskDialog
 import com.topjohnwu.superuser.internal.UiThreadHandler
 import kotlinx.coroutines.launch
 

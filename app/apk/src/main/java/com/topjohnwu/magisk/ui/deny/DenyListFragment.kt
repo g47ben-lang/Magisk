@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.deny
+package com.koshertech.su.ui.deny
 
 import android.os.Bundle
 import android.view.Menu
@@ -8,15 +8,15 @@ import android.view.View
 import androidx.appcompat.widget.SearchView
 import androidx.core.view.MenuProvider
 import androidx.recyclerview.widget.RecyclerView
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.BaseFragment
-import com.topjohnwu.magisk.arch.viewModel
-import com.topjohnwu.magisk.core.ktx.hideKeyboard
-import com.topjohnwu.magisk.databinding.FragmentDenyMd2Binding
+import com.koshertech.su.R
+import com.koshertech.su.arch.BaseFragment
+import com.koshertech.su.arch.viewModel
+import com.koshertech.su.core.ktx.hideKeyboard
+import com.koshertech.su.databinding.FragmentDenyMd2Binding
 import rikka.recyclerview.addEdgeSpacing
 import rikka.recyclerview.addItemSpacing
 import rikka.recyclerview.fixEdgeEffect
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.core.R as CoreR
 
 class DenyListFragment : BaseFragment<FragmentDenyMd2Binding>(), MenuProvider {
 

@@ -1,12 +1,12 @@
-package com.topjohnwu.magisk.core
+package com.koshertech.su.core
 
 import android.app.KeyguardManager
 import android.os.Build
 import androidx.lifecycle.MutableLiveData
-import com.topjohnwu.magisk.StubApk
-import com.topjohnwu.magisk.core.ktx.getProperty
-import com.topjohnwu.magisk.core.model.UpdateInfo
-import com.topjohnwu.magisk.core.repository.NetworkService
+import com.koshertech.su.StubApk
+import com.koshertech.su.core.ktx.getProperty
+import com.koshertech.su.core.model.UpdateInfo
+import com.koshertech.su.core.repository.NetworkService
 import com.topjohnwu.superuser.CallbackList
 import com.topjohnwu.superuser.Shell
 import com.topjohnwu.superuser.ShellUtils.fastCmd

@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.terminal
+package com.koshertech.su.ui.terminal
 
 import android.graphics.Typeface
 import androidx.compose.foundation.background
@@ -22,7 +22,7 @@ import androidx.compose.ui.graphics.drawscope.drawIntoCanvas
 import androidx.compose.ui.graphics.nativeCanvas
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.sp
-import com.topjohnwu.magisk.terminal.TerminalEmulator
+import com.koshertech.su.terminal.TerminalEmulator
 import kotlin.math.max
 
 @Composable

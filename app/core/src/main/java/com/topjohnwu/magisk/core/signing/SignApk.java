@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.signing;
+package com.koshertech.su.core.signing;
 
 import org.bouncycastle.asn1.ASN1Encoding;
 import org.bouncycastle.asn1.ASN1InputStream;

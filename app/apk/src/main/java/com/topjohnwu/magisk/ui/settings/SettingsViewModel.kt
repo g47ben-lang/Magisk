@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.settings
+package com.koshertech.su.ui.settings
 
 import android.app.Activity
 import android.content.Intent
@@ -9,24 +9,24 @@ import android.view.View
 import android.widget.Toast
 import androidx.core.content.pm.ShortcutManagerCompat
 import androidx.lifecycle.viewModelScope
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.arch.BaseViewModel
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.BuildConfig
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.core.isRunningAsStub
-import com.topjohnwu.magisk.core.ktx.activity
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.core.tasks.AppMigration
-import com.topjohnwu.magisk.core.utils.LocaleSetting
-import com.topjohnwu.magisk.core.utils.RootUtils
-import com.topjohnwu.magisk.databinding.bindExtra
-import com.topjohnwu.magisk.events.AddHomeIconEvent
-import com.topjohnwu.magisk.events.AuthEvent
-import com.topjohnwu.magisk.events.SnackbarEvent
+import com.koshertech.su.BR
+import com.koshertech.su.arch.BaseViewModel
+import com.koshertech.su.core.AppContext
+import com.koshertech.su.core.BuildConfig
+import com.koshertech.su.core.Config
+import com.koshertech.su.core.Const
+import com.koshertech.su.core.Info
+import com.koshertech.su.core.R
+import com.koshertech.su.core.isRunningAsStub
+import com.koshertech.su.core.ktx.activity
+import com.koshertech.su.core.ktx.toast
+import com.koshertech.su.core.tasks.AppMigration
+import com.koshertech.su.core.utils.LocaleSetting
+import com.koshertech.su.core.utils.RootUtils
+import com.koshertech.su.databinding.bindExtra
+import com.koshertech.su.events.AddHomeIconEvent
+import com.koshertech.su.events.AuthEvent
+import com.koshertech.su.events.SnackbarEvent
 import kotlinx.coroutines.launch
 
 class SettingsViewModel : BaseViewModel(), BaseSettingsItem.Handler {

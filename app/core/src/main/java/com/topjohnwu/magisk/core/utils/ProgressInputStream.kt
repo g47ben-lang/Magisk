@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.utils
+package com.koshertech.su.core.utils
 
 import java.io.FilterInputStream
 import java.io.InputStream

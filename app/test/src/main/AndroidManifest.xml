@@ -13,11 +13,11 @@
     </application>
 
     <instrumentation
-        android:name="com.topjohnwu.magisk.test.AppTestRunner"
-        android:targetPackage="com.topjohnwu.magisk" />
+        android:name="com.koshertech.su.test.AppTestRunner"
+        android:targetPackage="com.koshertech.su" />
 
     <instrumentation
-        android:name="com.topjohnwu.magisk.test.TestRunner"
-        android:targetPackage="com.topjohnwu.magisk.test" />
+        android:name="com.koshertech.su.test.TestRunner"
+        android:targetPackage="com.koshertech.su.test" />
 
 </manifest>

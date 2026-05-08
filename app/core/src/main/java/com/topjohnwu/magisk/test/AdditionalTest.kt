@@ -1,18 +1,18 @@
-package com.topjohnwu.magisk.test
+package com.koshertech.su.test
 
 import android.os.ParcelFileDescriptor.AutoCloseInputStream
 import androidx.annotation.Keep
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.uiautomator.By
 import androidx.test.uiautomator.Until
-import com.topjohnwu.magisk.core.model.module.LocalModule
-import com.topjohnwu.magisk.core.utils.RootUtils
-import com.topjohnwu.magisk.test.Environment.Companion.EMPTY_ZYGISK
-import com.topjohnwu.magisk.test.Environment.Companion.INVALID_ZYGISK
-import com.topjohnwu.magisk.test.Environment.Companion.MOUNT_TEST
-import com.topjohnwu.magisk.test.Environment.Companion.REMOVE_TEST
-import com.topjohnwu.magisk.test.Environment.Companion.SEPOLICY_RULE
-import com.topjohnwu.magisk.test.Environment.Companion.UPGRADE_TEST
+import com.koshertech.su.core.model.module.LocalModule
+import com.koshertech.su.core.utils.RootUtils
+import com.koshertech.su.test.Environment.Companion.EMPTY_ZYGISK
+import com.koshertech.su.test.Environment.Companion.INVALID_ZYGISK
+import com.koshertech.su.test.Environment.Companion.MOUNT_TEST
+import com.koshertech.su.test.Environment.Companion.REMOVE_TEST
+import com.koshertech.su.test.Environment.Companion.SEPOLICY_RULE
+import com.koshertech.su.test.Environment.Companion.UPGRADE_TEST
 import com.topjohnwu.superuser.Shell
 import kotlinx.coroutines.runBlocking
 import org.junit.After

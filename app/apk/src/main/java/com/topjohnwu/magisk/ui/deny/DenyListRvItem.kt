@@ -1,15 +1,15 @@
-package com.topjohnwu.magisk.ui.deny
+package com.koshertech.su.ui.deny
 
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.Bindable
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.startAnimations
-import com.topjohnwu.magisk.databinding.DiffItem
-import com.topjohnwu.magisk.databinding.ObservableRvItem
-import com.topjohnwu.magisk.databinding.addOnPropertyChangedCallback
-import com.topjohnwu.magisk.databinding.set
+import com.koshertech.su.BR
+import com.koshertech.su.R
+import com.koshertech.su.arch.startAnimations
+import com.koshertech.su.databinding.DiffItem
+import com.koshertech.su.databinding.ObservableRvItem
+import com.koshertech.su.databinding.addOnPropertyChangedCallback
+import com.koshertech.su.databinding.set
 import com.topjohnwu.superuser.Shell
 import kotlin.math.roundToInt
 

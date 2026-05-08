@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.surequest
+package com.koshertech.su.ui.surequest
 
 import android.content.Context
 import android.content.Intent
@@ -20,14 +20,14 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.VMFactory
-import com.topjohnwu.magisk.core.base.ActivityExtension
-import com.topjohnwu.magisk.core.base.UntrackedActivity
-import com.topjohnwu.magisk.core.su.SuCallbackHandler
-import com.topjohnwu.magisk.core.su.SuCallbackHandler.REQUEST
-import com.topjohnwu.magisk.core.wrap
-import com.topjohnwu.magisk.ui.MagiskTheme
+import com.koshertech.su.R
+import com.koshertech.su.arch.VMFactory
+import com.koshertech.su.core.base.ActivityExtension
+import com.koshertech.su.core.base.UntrackedActivity
+import com.koshertech.su.core.su.SuCallbackHandler
+import com.koshertech.su.core.su.SuCallbackHandler.REQUEST
+import com.koshertech.su.core.wrap
+import com.koshertech.su.ui.MagiskTheme
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

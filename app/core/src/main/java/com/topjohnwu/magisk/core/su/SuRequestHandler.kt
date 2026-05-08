@@ -1,17 +1,17 @@
-package com.topjohnwu.magisk.core.su
+package com.koshertech.su.core.su
 
 import android.content.Intent
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
-import com.topjohnwu.magisk.core.BuildConfig
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.data.magiskdb.PolicyDao
-import com.topjohnwu.magisk.core.di.ServiceLocator
-import com.topjohnwu.magisk.core.ktx.getLabel
-import com.topjohnwu.magisk.core.ktx.getPackageInfo
-import com.topjohnwu.magisk.core.model.su.SuLog
-import com.topjohnwu.magisk.core.model.su.SuPolicy
-import com.topjohnwu.magisk.view.Notifications
+import com.koshertech.su.core.BuildConfig
+import com.koshertech.su.core.Config
+import com.koshertech.su.core.data.magiskdb.PolicyDao
+import com.koshertech.su.core.di.ServiceLocator
+import com.koshertech.su.core.ktx.getLabel
+import com.koshertech.su.core.ktx.getPackageInfo
+import com.koshertech.su.core.model.su.SuLog
+import com.koshertech.su.core.model.su.SuPolicy
+import com.koshertech.su.view.Notifications
 import com.topjohnwu.superuser.Shell
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -38,7 +38,7 @@ class SuRequestHandler(
         if (!init(intent))
             return false
 
-        // Never allow com.topjohnwu.magisk (could be malware)
+        // Never allow com.koshertech.su (could be malware)
         if (pkgInfo.packageName == BuildConfig.APP_PACKAGE_NAME) {
             Shell.cmd("(pm uninstall ${BuildConfig.APP_PACKAGE_NAME} >/dev/null 2>&1)&").exec()
             return false

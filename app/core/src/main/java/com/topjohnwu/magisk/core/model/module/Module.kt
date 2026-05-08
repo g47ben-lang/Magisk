@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.model.module
+package com.koshertech.su.core.model.module
 
 abstract class Module : Comparable<Module> {
     abstract var id: String

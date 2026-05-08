@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.deny
+package com.koshertech.su.ui.deny
 
 import android.annotation.SuppressLint
 import android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES
@@ -6,9 +6,9 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.viewModelScope
-import com.topjohnwu.magisk.arch.AsyncLoadViewModel
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.ktx.concurrentMap
+import com.koshertech.su.arch.AsyncLoadViewModel
+import com.koshertech.su.core.AppContext
+import com.koshertech.su.core.ktx.concurrentMap
 import com.topjohnwu.superuser.Shell
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.home
+package com.koshertech.su.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,15 +10,15 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.view.MenuProvider
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.BaseFragment
-import com.topjohnwu.magisk.arch.viewModel
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.download.DownloadEngine
-import com.topjohnwu.magisk.databinding.FragmentHomeMd2Binding
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.R
+import com.koshertech.su.arch.BaseFragment
+import com.koshertech.su.arch.viewModel
+import com.koshertech.su.core.Info
+import com.koshertech.su.core.download.DownloadEngine
+import com.koshertech.su.databinding.FragmentHomeMd2Binding
+import com.koshertech.su.core.R as CoreR
 import androidx.navigation.findNavController
-import com.topjohnwu.magisk.arch.NavigationActivity
+import com.koshertech.su.arch.NavigationActivity
 
 class HomeFragment : BaseFragment<FragmentHomeMd2Binding>(), MenuProvider {
 

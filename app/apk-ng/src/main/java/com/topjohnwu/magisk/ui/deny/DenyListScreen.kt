@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.deny
+package com.koshertech.su.ui.deny
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -49,7 +49,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.state.ToggleableState
 import androidx.compose.ui.unit.dp
 import com.google.accompanist.drawablepainter.rememberDrawablePainter
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.core.R as CoreR
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

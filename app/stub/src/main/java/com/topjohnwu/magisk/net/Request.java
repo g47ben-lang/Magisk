@@ -1,8 +1,8 @@
-package com.topjohnwu.magisk.net;
+package com.koshertech.su.net;
 
 import android.os.AsyncTask;
 
-import com.topjohnwu.magisk.utils.APKInstall;
+import com.koshertech.su.utils.APKInstall;
 
 import org.json.JSONArray;
 import org.json.JSONException;

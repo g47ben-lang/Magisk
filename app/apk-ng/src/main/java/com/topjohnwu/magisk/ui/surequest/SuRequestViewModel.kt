@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.surequest
+package com.koshertech.su.ui.surequest
 
 import android.content.Intent
 import android.content.SharedPreferences
@@ -10,14 +10,14 @@ import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.viewModelScope
-import com.topjohnwu.magisk.arch.BaseViewModel
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.data.magiskdb.PolicyDao
-import com.topjohnwu.magisk.core.ktx.getLabel
-import com.topjohnwu.magisk.core.model.su.SuPolicy.Companion.ALLOW
-import com.topjohnwu.magisk.core.model.su.SuPolicy.Companion.DENY
-import com.topjohnwu.magisk.core.su.SuRequestHandler
+import com.koshertech.su.arch.BaseViewModel
+import com.koshertech.su.core.AppContext
+import com.koshertech.su.core.Config
+import com.koshertech.su.core.data.magiskdb.PolicyDao
+import com.koshertech.su.core.ktx.getLabel
+import com.koshertech.su.core.model.su.SuPolicy.Companion.ALLOW
+import com.koshertech.su.core.model.su.SuPolicy.Companion.DENY
+import com.koshertech.su.core.su.SuRequestHandler
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.util.concurrent.TimeUnit.SECONDS

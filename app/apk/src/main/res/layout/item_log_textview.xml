@@ -5,7 +5,7 @@
 
         <variable
             name="item"
-            type="com.topjohnwu.magisk.ui.log.LogRvItem" />
+            type="com.koshertech.su.ui.log.LogRvItem" />
 
     </data>
 

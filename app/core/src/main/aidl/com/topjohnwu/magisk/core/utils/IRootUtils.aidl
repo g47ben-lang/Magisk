@@ -1,5 +1,5 @@
 // IRootUtils.aidl
-package com.topjohnwu.magisk.core.utils;
+package com.koshertech.su.core.utils;
 
 // Declare any non-default types here with import statements
 

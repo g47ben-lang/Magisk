@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.settings
+package com.koshertech.su.ui.settings
 
 import android.os.Build
 import androidx.compose.foundation.layout.Column
@@ -33,18 +33,18 @@ import androidx.compose.ui.platform.LocalResources
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.core.content.pm.ShortcutManagerCompat
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.isRunningAsStub
-import com.topjohnwu.magisk.core.utils.LocaleSetting
-import com.topjohnwu.magisk.core.utils.MediaStoreUtils
-import com.topjohnwu.magisk.ui.ThemeState
-import com.topjohnwu.magisk.ui.component.SettingsArrow
-import com.topjohnwu.magisk.ui.component.SettingsDropdown
-import com.topjohnwu.magisk.ui.component.SettingsSwitch
-import com.topjohnwu.magisk.ui.component.SmallTitle
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.core.Config
+import com.koshertech.su.core.Const
+import com.koshertech.su.core.Info
+import com.koshertech.su.core.isRunningAsStub
+import com.koshertech.su.core.utils.LocaleSetting
+import com.koshertech.su.core.utils.MediaStoreUtils
+import com.koshertech.su.ui.ThemeState
+import com.koshertech.su.ui.component.SettingsArrow
+import com.koshertech.su.ui.component.SettingsDropdown
+import com.koshertech.su.ui.component.SettingsSwitch
+import com.koshertech.su.ui.component.SmallTitle
+import com.koshertech.su.core.R as CoreR
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

@@ -1,7 +1,7 @@
-package com.topjohnwu.magisk.core.model.module
+package com.koshertech.su.core.model.module
 
 import android.os.Parcelable
-import com.topjohnwu.magisk.core.model.ModuleJson
+import com.koshertech.su.core.model.ModuleJson
 import kotlinx.parcelize.Parcelize
 
 @Parcelize

@@ -1,8 +1,8 @@
-package com.topjohnwu.magisk.core.utils
+package com.koshertech.su.core.utils
 
 import android.util.Base64
 import android.util.Base64OutputStream
-import com.topjohnwu.magisk.core.Config
+import com.koshertech.su.core.Config
 import org.bouncycastle.asn1.x500.X500Name
 import org.bouncycastle.asn1.x509.SubjectPublicKeyInfo
 import org.bouncycastle.cert.X509v3CertificateBuilder

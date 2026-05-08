@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.download
+package com.koshertech.su.core.download
 
 import android.annotation.SuppressLint
 import android.app.PendingIntent
@@ -7,11 +7,11 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Parcelable
 import androidx.core.net.toUri
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.model.UpdateInfo
-import com.topjohnwu.magisk.core.model.module.OnlineModule
-import com.topjohnwu.magisk.core.utils.MediaStoreUtils
-import com.topjohnwu.magisk.view.Notifications
+import com.koshertech.su.core.Info
+import com.koshertech.su.core.model.UpdateInfo
+import com.koshertech.su.core.model.module.OnlineModule
+import com.koshertech.su.core.utils.MediaStoreUtils
+import com.koshertech.su.view.Notifications
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
 import java.io.File

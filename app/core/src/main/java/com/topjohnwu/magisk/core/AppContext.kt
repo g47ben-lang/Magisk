@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core
+package com.koshertech.su.core
 
 import android.app.Activity
 import android.app.Application
@@ -12,12 +12,12 @@ import android.os.Build.VERSION.SDK_INT
 import android.os.Bundle
 import android.system.Os
 import androidx.profileinstaller.ProfileInstaller
-import com.topjohnwu.magisk.StubApk
-import com.topjohnwu.magisk.core.base.UntrackedActivity
-import com.topjohnwu.magisk.core.utils.LocaleSetting
-import com.topjohnwu.magisk.core.utils.NetworkObserver
-import com.topjohnwu.magisk.core.utils.RootUtils
-import com.topjohnwu.magisk.core.utils.ShellInit
+import com.koshertech.su.StubApk
+import com.koshertech.su.core.base.UntrackedActivity
+import com.koshertech.su.core.utils.LocaleSetting
+import com.koshertech.su.core.utils.NetworkObserver
+import com.koshertech.su.core.utils.RootUtils
+import com.koshertech.su.core.utils.ShellInit
 import com.topjohnwu.superuser.Shell
 import com.topjohnwu.superuser.internal.UiThreadHandler
 import com.topjohnwu.superuser.ipc.RootService

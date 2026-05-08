@@ -1,13 +1,13 @@
-package com.topjohnwu.magisk.ui.module
+package com.koshertech.su.ui.module
 
 import androidx.lifecycle.viewModelScope
-import com.topjohnwu.magisk.arch.BaseViewModel
-import com.topjohnwu.magisk.core.ktx.timeFormatStandard
-import com.topjohnwu.magisk.core.ktx.toTime
-import com.topjohnwu.magisk.core.utils.MediaStoreUtils
-import com.topjohnwu.magisk.core.utils.MediaStoreUtils.outputStream
-import com.topjohnwu.magisk.terminal.TerminalEmulator
-import com.topjohnwu.magisk.terminal.runSuCommand
+import com.koshertech.su.arch.BaseViewModel
+import com.koshertech.su.core.ktx.timeFormatStandard
+import com.koshertech.su.core.ktx.toTime
+import com.koshertech.su.core.utils.MediaStoreUtils
+import com.koshertech.su.core.utils.MediaStoreUtils.outputStream
+import com.koshertech.su.terminal.TerminalEmulator
+import com.koshertech.su.terminal.runSuCommand
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

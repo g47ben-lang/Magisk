@@ -1,11 +1,11 @@
-package com.topjohnwu.magisk.test
+package com.koshertech.su.test
 
 import android.app.Instrumentation
 import android.app.UiAutomation
 import android.content.Context
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.uiautomator.UiDevice
-import com.topjohnwu.magisk.core.utils.RootUtils
+import com.koshertech.su.core.utils.RootUtils
 import com.topjohnwu.superuser.Shell
 import org.junit.Assert.assertTrue
 

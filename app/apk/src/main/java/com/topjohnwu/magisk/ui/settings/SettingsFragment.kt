@@ -1,15 +1,15 @@
-package com.topjohnwu.magisk.ui.settings
+package com.koshertech.su.ui.settings
 
 import android.os.Bundle
 import android.view.View
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.BaseFragment
-import com.topjohnwu.magisk.arch.viewModel
-import com.topjohnwu.magisk.databinding.FragmentSettingsMd2Binding
+import com.koshertech.su.R
+import com.koshertech.su.arch.BaseFragment
+import com.koshertech.su.arch.viewModel
+import com.koshertech.su.databinding.FragmentSettingsMd2Binding
 import rikka.recyclerview.addEdgeSpacing
 import rikka.recyclerview.addItemSpacing
 import rikka.recyclerview.fixEdgeEffect
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.core.R as CoreR
 
 class SettingsFragment : BaseFragment<FragmentSettingsMd2Binding>() {
 

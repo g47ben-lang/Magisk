@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.ktx
+package com.koshertech.su.core.ktx
 
 import androidx.collection.SparseArrayCompat
 import kotlinx.coroutines.CoroutineDispatcher

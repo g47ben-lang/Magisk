@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.home
+package com.koshertech.su.ui.home
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -6,31 +6,31 @@ import android.content.Intent
 import android.widget.Toast
 import androidx.core.net.toUri
 import androidx.databinding.Bindable
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.ActivityExecutor
-import com.topjohnwu.magisk.arch.AsyncLoadViewModel
-import com.topjohnwu.magisk.arch.ContextExecutor
-import com.topjohnwu.magisk.arch.UIActivity
-import com.topjohnwu.magisk.arch.ViewEvent
-import com.topjohnwu.magisk.core.BuildConfig
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.download.Subject
-import com.topjohnwu.magisk.core.download.Subject.App
-import com.topjohnwu.magisk.core.ktx.await
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.core.repository.NetworkService
-import com.topjohnwu.magisk.core.utils.asText
-import com.topjohnwu.magisk.databinding.bindExtra
-import com.topjohnwu.magisk.databinding.set
-import com.topjohnwu.magisk.dialog.EnvFixDialog
-import com.topjohnwu.magisk.dialog.ManagerInstallDialog
-import com.topjohnwu.magisk.dialog.UninstallDialog
-import com.topjohnwu.magisk.events.SnackbarEvent
+import com.koshertech.su.BR
+import com.koshertech.su.R
+import com.koshertech.su.arch.ActivityExecutor
+import com.koshertech.su.arch.AsyncLoadViewModel
+import com.koshertech.su.arch.ContextExecutor
+import com.koshertech.su.arch.UIActivity
+import com.koshertech.su.arch.ViewEvent
+import com.koshertech.su.core.BuildConfig
+import com.koshertech.su.core.Config
+import com.koshertech.su.core.Info
+import com.koshertech.su.core.download.Subject
+import com.koshertech.su.core.download.Subject.App
+import com.koshertech.su.core.ktx.await
+import com.koshertech.su.core.ktx.toast
+import com.koshertech.su.core.repository.NetworkService
+import com.koshertech.su.core.utils.asText
+import com.koshertech.su.databinding.bindExtra
+import com.koshertech.su.databinding.set
+import com.koshertech.su.dialog.EnvFixDialog
+import com.koshertech.su.dialog.ManagerInstallDialog
+import com.koshertech.su.dialog.UninstallDialog
+import com.koshertech.su.events.SnackbarEvent
 import com.topjohnwu.superuser.Shell
 import kotlin.math.roundToInt
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.core.R as CoreR
 
 class HomeViewModel(
     private val svc: NetworkService

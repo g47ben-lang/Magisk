@@ -1,9 +1,9 @@
-package com.topjohnwu.magisk.ui.flash
+package com.koshertech.su.ui.flash
 
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.databinding.DiffItem
-import com.topjohnwu.magisk.databinding.ItemWrapper
-import com.topjohnwu.magisk.databinding.RvItem
+import com.koshertech.su.R
+import com.koshertech.su.databinding.DiffItem
+import com.koshertech.su.databinding.ItemWrapper
+import com.koshertech.su.databinding.RvItem
 
 class ConsoleItem(
     override val item: String

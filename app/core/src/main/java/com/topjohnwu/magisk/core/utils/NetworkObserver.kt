@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.utils
+package com.koshertech.su.core.utils
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -11,8 +11,8 @@ import android.net.NetworkRequest
 import android.os.PowerManager
 import androidx.collection.ArraySet
 import androidx.core.content.getSystemService
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.ktx.registerRuntimeReceiver
+import com.koshertech.su.core.Info
+import com.koshertech.su.core.ktx.registerRuntimeReceiver
 
 class NetworkObserver(context: Context) {
     private val manager = context.getSystemService<ConnectivityManager>()!!

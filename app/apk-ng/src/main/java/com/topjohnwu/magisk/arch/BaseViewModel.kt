@@ -1,11 +1,11 @@
-package com.topjohnwu.magisk.arch
+package com.koshertech.su.arch
 
 import android.widget.Toast
 import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.ui.navigation.Route
+import com.koshertech.su.core.AppContext
+import com.koshertech.su.core.ktx.toast
+import com.koshertech.su.ui.navigation.Route
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.SharedFlow
 

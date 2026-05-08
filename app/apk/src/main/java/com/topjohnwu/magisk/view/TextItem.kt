@@ -1,9 +1,9 @@
-package com.topjohnwu.magisk.view
+package com.koshertech.su.view
 
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.databinding.DiffItem
-import com.topjohnwu.magisk.databinding.ItemWrapper
-import com.topjohnwu.magisk.databinding.RvItem
+import com.koshertech.su.R
+import com.koshertech.su.databinding.DiffItem
+import com.koshertech.su.databinding.ItemWrapper
+import com.koshertech.su.databinding.RvItem
 
 class TextItem(override val item: Int) : RvItem(), DiffItem<TextItem>, ItemWrapper<Int> {
     override val layoutRes = R.layout.item_text

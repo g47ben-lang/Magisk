@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.repository
+package com.koshertech.su.core.repository
 
 import android.content.Context
 import android.content.SharedPreferences

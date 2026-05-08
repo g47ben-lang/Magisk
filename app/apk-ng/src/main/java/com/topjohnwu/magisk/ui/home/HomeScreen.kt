@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.home
+package com.koshertech.su.ui.home
 
 import android.content.Intent
 import android.os.Build
@@ -66,26 +66,26 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.content.getSystemService
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.core.BuildConfig
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.download.DownloadEngine
-import com.topjohnwu.magisk.core.download.Subject
-import com.topjohnwu.magisk.core.ktx.reboot
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.core.tasks.AppMigration
-import com.topjohnwu.magisk.core.tasks.MagiskInstaller
-import com.topjohnwu.magisk.ui.MainActivity
-import com.topjohnwu.magisk.ui.component.LoadingDialogHandle
-import com.topjohnwu.magisk.ui.component.MarkdownTextAsync
-import com.topjohnwu.magisk.ui.component.rememberLoadingDialog
-import com.topjohnwu.magisk.ui.flash.FlashUtils
-import com.topjohnwu.magisk.ui.install.InstallBottomSheet
-import com.topjohnwu.magisk.ui.install.InstallViewModel
+import com.koshertech.su.R
+import com.koshertech.su.core.BuildConfig
+import com.koshertech.su.core.Config
+import com.koshertech.su.core.Const
+import com.koshertech.su.core.Info
+import com.koshertech.su.core.download.DownloadEngine
+import com.koshertech.su.core.download.Subject
+import com.koshertech.su.core.ktx.reboot
+import com.koshertech.su.core.ktx.toast
+import com.koshertech.su.core.tasks.AppMigration
+import com.koshertech.su.core.tasks.MagiskInstaller
+import com.koshertech.su.ui.MainActivity
+import com.koshertech.su.ui.component.LoadingDialogHandle
+import com.koshertech.su.ui.component.MarkdownTextAsync
+import com.koshertech.su.ui.component.rememberLoadingDialog
+import com.koshertech.su.ui.flash.FlashUtils
+import com.koshertech.su.ui.install.InstallBottomSheet
+import com.koshertech.su.ui.install.InstallViewModel
 import kotlinx.coroutines.launch
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.core.R as CoreR
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -819,8 +819,8 @@ private fun EnvFixComposableDialog(
 ) {
     val scope = rememberCoroutineScope()
     val needsFullFix = code == 2 ||
-        Info.env.versionCode != com.topjohnwu.magisk.core.BuildConfig.APP_VERSION_CODE ||
-        Info.env.versionString != com.topjohnwu.magisk.core.BuildConfig.APP_VERSION_NAME
+        Info.env.versionCode != com.koshertech.su.core.BuildConfig.APP_VERSION_CODE ||
+        Info.env.versionString != com.koshertech.su.core.BuildConfig.APP_VERSION_NAME
 
     if (showDialog.value) {
         AlertDialog(

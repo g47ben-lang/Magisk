@@ -1,16 +1,16 @@
-package com.topjohnwu.magisk.ui.settings
+package com.koshertech.su.ui.settings
 
 import android.content.Context
 import android.content.res.Resources
 import android.view.View
 import androidx.databinding.Bindable
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.core.ktx.activity
-import com.topjohnwu.magisk.core.utils.TextHolder
-import com.topjohnwu.magisk.databinding.ObservableRvItem
-import com.topjohnwu.magisk.databinding.set
-import com.topjohnwu.magisk.view.MagiskDialog
+import com.koshertech.su.BR
+import com.koshertech.su.R
+import com.koshertech.su.core.ktx.activity
+import com.koshertech.su.core.utils.TextHolder
+import com.koshertech.su.databinding.ObservableRvItem
+import com.koshertech.su.databinding.set
+import com.koshertech.su.view.MagiskDialog
 
 sealed class BaseSettingsItem : ObservableRvItem() {
 

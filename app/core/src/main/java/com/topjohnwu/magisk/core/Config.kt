@@ -1,11 +1,11 @@
-package com.topjohnwu.magisk.core
+package com.koshertech.su.core
 
 import android.os.Bundle
 import androidx.core.content.edit
-import com.topjohnwu.magisk.core.di.ServiceLocator
-import com.topjohnwu.magisk.core.repository.DBConfig
-import com.topjohnwu.magisk.core.repository.PreferenceConfig
-import com.topjohnwu.magisk.core.utils.LocaleSetting
+import com.koshertech.su.core.di.ServiceLocator
+import com.koshertech.su.core.repository.DBConfig
+import com.koshertech.su.core.repository.PreferenceConfig
+import com.koshertech.su.core.utils.LocaleSetting
 import kotlinx.coroutines.GlobalScope
 
 object Config : PreferenceConfig, DBConfig {

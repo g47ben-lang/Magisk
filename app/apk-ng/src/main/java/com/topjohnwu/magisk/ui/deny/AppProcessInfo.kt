@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.deny
+package com.koshertech.su.ui.deny
 
 import android.annotation.SuppressLint
 import android.content.pm.ApplicationInfo
@@ -13,7 +13,7 @@ import android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES
 import android.content.pm.ServiceInfo
 import android.graphics.drawable.Drawable
 import androidx.core.os.ProcessCompat
-import com.topjohnwu.magisk.core.ktx.getLabel
+import com.koshertech.su.core.ktx.getLabel
 import java.util.Locale
 import java.util.TreeSet
 

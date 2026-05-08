@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.arch
+package com.koshertech.su.arch
 
 import android.os.Bundle
 import android.view.KeyEvent
@@ -12,7 +12,7 @@ import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Lifecycle
 import androidx.navigation.NavDirections
-import com.topjohnwu.magisk.BR
+import com.koshertech.su.BR
 
 abstract class BaseFragment<Binding : ViewDataBinding> : Fragment(), ViewModelHolder {
 

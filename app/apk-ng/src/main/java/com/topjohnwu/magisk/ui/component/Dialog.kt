@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.component
+package com.koshertech.su.ui.component
 
 import android.widget.TextView
 import androidx.compose.foundation.layout.Arrangement
@@ -36,7 +36,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
-import com.topjohnwu.magisk.core.di.ServiceLocator
+import com.koshertech.su.core.di.ServiceLocator
 import kotlinx.coroutines.CancellableContinuation
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -249,7 +249,7 @@ private fun LoadingDialog(showDialog: MutableState<Boolean>) {
                         )
                         Text(
                             modifier = Modifier.padding(start = 16.dp),
-                            text = stringResource(com.topjohnwu.magisk.core.R.string.loading),
+                            text = stringResource(com.koshertech.su.core.R.string.loading),
                         )
                     }
                 }
@@ -350,7 +350,7 @@ fun MarkdownTextAsync(getMarkdownText: suspend () -> String) {
     }
 
     when {
-        error -> Text(stringResource(com.topjohnwu.magisk.core.R.string.download_file_error))
+        error -> Text(stringResource(com.koshertech.su.core.R.string.download_file_error))
         mdText != null -> MarkdownText(mdText!!)
         else -> Box(
             modifier = Modifier.fillMaxWidth(),

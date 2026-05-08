@@ -1,16 +1,16 @@
-package com.topjohnwu.magisk.dialog
+package com.koshertech.su.dialog
 
 import android.app.ProgressDialog
 import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
-import com.topjohnwu.magisk.arch.NavigationActivity
-import com.topjohnwu.magisk.arch.UIActivity
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.core.tasks.MagiskInstaller
-import com.topjohnwu.magisk.events.DialogBuilder
-import com.topjohnwu.magisk.ui.flash.FlashFragment
-import com.topjohnwu.magisk.view.MagiskDialog
+import com.koshertech.su.arch.NavigationActivity
+import com.koshertech.su.arch.UIActivity
+import com.koshertech.su.core.R
+import com.koshertech.su.core.ktx.toast
+import com.koshertech.su.core.tasks.MagiskInstaller
+import com.koshertech.su.events.DialogBuilder
+import com.koshertech.su.ui.flash.FlashFragment
+import com.koshertech.su.view.MagiskDialog
 import kotlinx.coroutines.launch
 
 class UninstallDialog : DialogBuilder {

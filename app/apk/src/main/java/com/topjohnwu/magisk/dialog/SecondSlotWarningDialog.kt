@@ -1,8 +1,8 @@
-package com.topjohnwu.magisk.dialog
+package com.koshertech.su.dialog
 
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.events.DialogBuilder
-import com.topjohnwu.magisk.view.MagiskDialog
+import com.koshertech.su.core.R
+import com.koshertech.su.events.DialogBuilder
+import com.koshertech.su.view.MagiskDialog
 
 class SecondSlotWarningDialog : DialogBuilder {
 

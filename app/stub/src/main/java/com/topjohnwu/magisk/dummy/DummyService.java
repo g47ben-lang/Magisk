@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.dummy;
+package com.koshertech.su.dummy;
 
 import android.app.Service;
 import android.content.Intent;

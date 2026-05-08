@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui
+package com.koshertech.su.ui
 
 import android.Manifest
 import android.Manifest.permission.REQUEST_INSTALL_PACKAGES
@@ -29,35 +29,35 @@ import androidx.lifecycle.viewmodel.navigation3.rememberViewModelStoreNavEntryDe
 import androidx.navigation3.runtime.entryProvider
 import androidx.navigation3.runtime.rememberSaveableStateHolderNavEntryDecorator
 import androidx.navigation3.ui.NavDisplay
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.VMFactory
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.base.ActivityExtension
-import com.topjohnwu.magisk.core.base.SplashController
-import com.topjohnwu.magisk.core.base.SplashScreenHost
-import com.topjohnwu.magisk.core.isRunningAsStub
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.core.tasks.AppMigration
-import com.topjohnwu.magisk.core.wrap
-import com.topjohnwu.magisk.ui.deny.DenyListScreen
-import com.topjohnwu.magisk.ui.deny.DenyListViewModel
-import com.topjohnwu.magisk.ui.flash.FlashScreen
-import com.topjohnwu.magisk.ui.flash.FlashUtils
-import com.topjohnwu.magisk.ui.flash.FlashViewModel
-import com.topjohnwu.magisk.ui.module.ActionScreen
-import com.topjohnwu.magisk.ui.module.ActionViewModel
-import com.topjohnwu.magisk.ui.navigation.LocalNavigator
-import com.topjohnwu.magisk.ui.navigation.Navigator
-import com.topjohnwu.magisk.ui.navigation.Route
-import com.topjohnwu.magisk.ui.navigation.rememberNavigator
-import com.topjohnwu.magisk.ui.superuser.SuperuserDetailScreen
-import com.topjohnwu.magisk.ui.superuser.SuperuserViewModel
-import com.topjohnwu.magisk.view.Shortcuts
+import com.koshertech.su.R
+import com.koshertech.su.arch.VMFactory
+import com.koshertech.su.core.Config
+import com.koshertech.su.core.Const
+import com.koshertech.su.core.Info
+import com.koshertech.su.core.base.ActivityExtension
+import com.koshertech.su.core.base.SplashController
+import com.koshertech.su.core.base.SplashScreenHost
+import com.koshertech.su.core.isRunningAsStub
+import com.koshertech.su.core.ktx.toast
+import com.koshertech.su.core.tasks.AppMigration
+import com.koshertech.su.core.wrap
+import com.koshertech.su.ui.deny.DenyListScreen
+import com.koshertech.su.ui.deny.DenyListViewModel
+import com.koshertech.su.ui.flash.FlashScreen
+import com.koshertech.su.ui.flash.FlashUtils
+import com.koshertech.su.ui.flash.FlashViewModel
+import com.koshertech.su.ui.module.ActionScreen
+import com.koshertech.su.ui.module.ActionViewModel
+import com.koshertech.su.ui.navigation.LocalNavigator
+import com.koshertech.su.ui.navigation.Navigator
+import com.koshertech.su.ui.navigation.Route
+import com.koshertech.su.ui.navigation.rememberNavigator
+import com.koshertech.su.ui.superuser.SuperuserDetailScreen
+import com.koshertech.su.ui.superuser.SuperuserViewModel
+import com.koshertech.su.view.Shortcuts
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.core.R as CoreR
 
 class MainActivity : ComponentActivity(), SplashScreenHost {
 
@@ -265,7 +265,7 @@ private fun MainActivityDialogs(activity: MainActivity) {
     val unsupportedMessages by activity.showUnsupported.collectAsState()
     val showShortcut by activity.showShortcutPrompt.collectAsState()
 
-    val invalidDialog = com.topjohnwu.magisk.ui.component.rememberConfirmDialog(
+    val invalidDialog = com.koshertech.su.ui.component.rememberConfirmDialog(
         onConfirm = {
             activity.showInvalidState.value = false
             activity.handleInvalidStateInstall()
@@ -286,7 +286,7 @@ private fun MainActivityDialogs(activity: MainActivity) {
     for ((index, pair) in unsupportedMessages.withIndex()) {
         val (titleRes, msgRes) = pair
         val show = rememberSaveable { androidx.compose.runtime.mutableStateOf(true) }
-        com.topjohnwu.magisk.ui.component.rememberConfirmDialog(
+        com.koshertech.su.ui.component.rememberConfirmDialog(
             onConfirm = { show.value = false },
         ).also { dialog ->
             LaunchedEffect(Unit) {
@@ -298,7 +298,7 @@ private fun MainActivityDialogs(activity: MainActivity) {
         }
     }
 
-    val shortcutDialog = com.topjohnwu.magisk.ui.component.rememberConfirmDialog(
+    val shortcutDialog = com.koshertech.su.ui.component.rememberConfirmDialog(
         onConfirm = {
             activity.showShortcutPrompt.value = false
             Shortcuts.addHomeIcon(activity)

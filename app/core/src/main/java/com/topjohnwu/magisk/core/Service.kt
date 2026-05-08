@@ -1,14 +1,14 @@
-package com.topjohnwu.magisk.core
+package com.koshertech.su.core
 
 import android.app.Notification
 import android.content.Intent
 import android.os.Build
 import androidx.core.app.ServiceCompat
 import androidx.core.content.IntentCompat
-import com.topjohnwu.magisk.core.base.BaseService
-import com.topjohnwu.magisk.core.download.DownloadEngine
-import com.topjohnwu.magisk.core.download.DownloadSession
-import com.topjohnwu.magisk.core.download.Subject
+import com.koshertech.su.core.base.BaseService
+import com.koshertech.su.core.download.DownloadEngine
+import com.koshertech.su.core.download.DownloadSession
+import com.koshertech.su.core.download.Subject
 
 class Service : BaseService(), DownloadSession {
 

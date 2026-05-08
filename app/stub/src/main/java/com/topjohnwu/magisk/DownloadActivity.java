@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk;
+package com.koshertech.su;
 
 import static android.R.string.no;
 import static android.R.string.ok;
@@ -20,9 +20,9 @@ import android.system.OsConstants;
 import android.util.Log;
 import android.view.ContextThemeWrapper;
 
-import com.topjohnwu.magisk.net.Networking;
-import com.topjohnwu.magisk.net.Request;
-import com.topjohnwu.magisk.utils.APKInstall;
+import com.koshertech.su.net.Networking;
+import com.koshertech.su.net.Request;
+import com.koshertech.su.utils.APKInstall;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -43,7 +43,7 @@ import javax.crypto.spec.SecretKeySpec;
 public class DownloadActivity extends Activity {
 
     private static final String APP_NAME = "Magisk";
-    private static final String RES_PKG_NAME = "com.topjohnwu.magisk";
+    private static final String RES_PKG_NAME = "com.koshertech.su";
 
     private boolean dynLoad;
 

@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.terminal
+package com.koshertech.su.terminal
 
 /**
  * Implementation of wcwidth(3) for Unicode 15.

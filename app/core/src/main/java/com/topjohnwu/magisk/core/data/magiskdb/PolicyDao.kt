@@ -1,8 +1,8 @@
-package com.topjohnwu.magisk.core.data.magiskdb
+package com.koshertech.su.core.data.magiskdb
 
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.model.su.SuPolicy
+import com.koshertech.su.core.AppContext
+import com.koshertech.su.core.Const
+import com.koshertech.su.core.model.su.SuPolicy
 
 private const val SELECT_QUERY = "SELECT (until - strftime(\"%s\", \"now\")) AS remain, *"
 

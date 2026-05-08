@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui
+package com.koshertech.su.ui
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.tween
@@ -42,25 +42,25 @@ import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.VMFactory
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.model.module.LocalModule
-import com.topjohnwu.magisk.ui.home.HomeScreen
-import com.topjohnwu.magisk.ui.home.HomeViewModel
-import com.topjohnwu.magisk.ui.install.InstallViewModel
-import com.topjohnwu.magisk.ui.log.LogScreen
-import com.topjohnwu.magisk.ui.log.LogViewModel
-import com.topjohnwu.magisk.ui.module.ModuleScreen
-import com.topjohnwu.magisk.ui.module.ModuleViewModel
-import com.topjohnwu.magisk.ui.navigation.CollectNavEvents
-import com.topjohnwu.magisk.ui.navigation.LocalNavigator
-import com.topjohnwu.magisk.ui.settings.SettingsScreen
-import com.topjohnwu.magisk.ui.settings.SettingsViewModel
-import com.topjohnwu.magisk.ui.superuser.SuperuserScreen
-import com.topjohnwu.magisk.ui.superuser.SuperuserViewModel
+import com.koshertech.su.R
+import com.koshertech.su.arch.VMFactory
+import com.koshertech.su.core.Info
+import com.koshertech.su.core.model.module.LocalModule
+import com.koshertech.su.ui.home.HomeScreen
+import com.koshertech.su.ui.home.HomeViewModel
+import com.koshertech.su.ui.install.InstallViewModel
+import com.koshertech.su.ui.log.LogScreen
+import com.koshertech.su.ui.log.LogViewModel
+import com.koshertech.su.ui.module.ModuleScreen
+import com.koshertech.su.ui.module.ModuleViewModel
+import com.koshertech.su.ui.navigation.CollectNavEvents
+import com.koshertech.su.ui.navigation.LocalNavigator
+import com.koshertech.su.ui.settings.SettingsScreen
+import com.koshertech.su.ui.settings.SettingsViewModel
+import com.koshertech.su.ui.superuser.SuperuserScreen
+import com.koshertech.su.ui.superuser.SuperuserViewModel
 import kotlinx.coroutines.launch
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.core.R as CoreR
 
 enum class Tab(val titleRes: Int, val iconRes: Int) {
     MODULES(CoreR.string.modules, R.drawable.ic_module),

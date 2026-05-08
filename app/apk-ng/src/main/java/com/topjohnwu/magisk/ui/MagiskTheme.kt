@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui
+package com.koshertech.su.ui
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -12,7 +12,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
-import com.topjohnwu.magisk.core.Config
+import com.koshertech.su.core.Config
 
 object ThemeState {
     var colorMode by mutableIntStateOf(Config.colorMode)

@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.databinding
+package com.koshertech.su.databinding
 
 import androidx.databinding.Observable
 import androidx.databinding.PropertyChangeRegistry

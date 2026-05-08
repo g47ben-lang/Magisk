@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.view
+package com.koshertech.su.view
 
 import android.app.Activity
 import android.content.DialogInterface
@@ -19,18 +19,18 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.color.MaterialColors
 import com.google.android.material.shape.MaterialShapeDrawable
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.UIActivity
-import com.topjohnwu.magisk.databinding.DialogMagiskBaseBinding
-import com.topjohnwu.magisk.databinding.DiffItem
-import com.topjohnwu.magisk.databinding.ItemWrapper
-import com.topjohnwu.magisk.databinding.ObservableHost
-import com.topjohnwu.magisk.databinding.RvItem
-import com.topjohnwu.magisk.databinding.bindExtra
-import com.topjohnwu.magisk.databinding.set
-import com.topjohnwu.magisk.databinding.setAdapter
-import com.topjohnwu.magisk.view.MagiskDialog.DialogClickListener
+import com.koshertech.su.BR
+import com.koshertech.su.R
+import com.koshertech.su.arch.UIActivity
+import com.koshertech.su.databinding.DialogMagiskBaseBinding
+import com.koshertech.su.databinding.DiffItem
+import com.koshertech.su.databinding.ItemWrapper
+import com.koshertech.su.databinding.ObservableHost
+import com.koshertech.su.databinding.RvItem
+import com.koshertech.su.databinding.bindExtra
+import com.koshertech.su.databinding.set
+import com.koshertech.su.databinding.setAdapter
+import com.koshertech.su.view.MagiskDialog.DialogClickListener
 
 typealias DialogButtonClickListener = (DialogInterface) -> Unit
 

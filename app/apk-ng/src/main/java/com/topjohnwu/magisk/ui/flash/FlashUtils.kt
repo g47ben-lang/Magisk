@@ -1,16 +1,16 @@
-package com.topjohnwu.magisk.ui.flash
+package com.koshertech.su.ui.flash
 
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.cmp
-import com.topjohnwu.magisk.ui.MainActivity
+import com.koshertech.su.core.Const
+import com.koshertech.su.core.cmp
+import com.koshertech.su.ui.MainActivity
 
 object FlashUtils {
 
-    const val INTENT_FLASH = "com.topjohnwu.magisk.intent.FLASH"
+    const val INTENT_FLASH = "com.koshertech.su.intent.FLASH"
     const val EXTRA_FLASH_ACTION = "flash_action"
     const val EXTRA_FLASH_URI = "flash_uri"
 

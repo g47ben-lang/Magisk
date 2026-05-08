@@ -1,13 +1,13 @@
-package com.topjohnwu.magisk.arch
+package com.koshertech.su.arch
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.topjohnwu.magisk.core.di.ServiceLocator
-import com.topjohnwu.magisk.ui.home.HomeViewModel
-import com.topjohnwu.magisk.ui.install.InstallViewModel
-import com.topjohnwu.magisk.ui.log.LogViewModel
-import com.topjohnwu.magisk.ui.superuser.SuperuserViewModel
-import com.topjohnwu.magisk.ui.surequest.SuRequestViewModel
+import com.koshertech.su.core.di.ServiceLocator
+import com.koshertech.su.ui.home.HomeViewModel
+import com.koshertech.su.ui.install.InstallViewModel
+import com.koshertech.su.ui.log.LogViewModel
+import com.koshertech.su.ui.superuser.SuperuserViewModel
+import com.koshertech.su.ui.surequest.SuRequestViewModel
 
 object VMFactory : ViewModelProvider.Factory {
     @Suppress("UNCHECKED_CAST")

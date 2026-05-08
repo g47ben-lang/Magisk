@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.view
+package com.koshertech.su.view
 
 import android.annotation.SuppressLint
 import android.app.Notification
@@ -9,12 +9,12 @@ import android.os.Build
 import android.os.Build.VERSION.SDK_INT
 import androidx.core.content.getSystemService
 import androidx.core.graphics.drawable.toIcon
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.core.download.DownloadEngine
-import com.topjohnwu.magisk.core.download.Subject
-import com.topjohnwu.magisk.core.ktx.getBitmap
-import com.topjohnwu.magisk.core.ktx.selfLaunchIntent
+import com.koshertech.su.core.AppContext
+import com.koshertech.su.core.R
+import com.koshertech.su.core.download.DownloadEngine
+import com.koshertech.su.core.download.Subject
+import com.koshertech.su.core.ktx.getBitmap
+import com.koshertech.su.core.ktx.selfLaunchIntent
 import java.util.concurrent.atomic.AtomicInteger
 
 @Suppress("DEPRECATION")

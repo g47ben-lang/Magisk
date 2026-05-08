@@ -1,16 +1,16 @@
-package com.topjohnwu.magisk.ui.deny
+package com.koshertech.su.ui.deny
 
 import android.annotation.SuppressLint
 import android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES
 import androidx.databinding.Bindable
 import androidx.lifecycle.viewModelScope
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.arch.AsyncLoadViewModel
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.ktx.concurrentMap
-import com.topjohnwu.magisk.databinding.bindExtra
-import com.topjohnwu.magisk.databinding.filterList
-import com.topjohnwu.magisk.databinding.set
+import com.koshertech.su.BR
+import com.koshertech.su.arch.AsyncLoadViewModel
+import com.koshertech.su.core.AppContext
+import com.koshertech.su.core.ktx.concurrentMap
+import com.koshertech.su.databinding.bindExtra
+import com.koshertech.su.databinding.filterList
+import com.koshertech.su.databinding.set
 import com.topjohnwu.superuser.Shell
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.asFlow

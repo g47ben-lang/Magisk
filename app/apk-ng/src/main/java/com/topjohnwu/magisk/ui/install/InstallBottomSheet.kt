@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.install
+package com.koshertech.su.ui.install
 
 import android.net.Uri
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -37,13 +37,13 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.core.net.toUri
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.ui.component.ConfirmResult
-import com.topjohnwu.magisk.ui.component.MarkdownText
-import com.topjohnwu.magisk.ui.component.SettingsArrow
-import com.topjohnwu.magisk.ui.component.rememberConfirmDialog
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.core.Config
+import com.koshertech.su.core.Info
+import com.koshertech.su.ui.component.ConfirmResult
+import com.koshertech.su.ui.component.MarkdownText
+import com.koshertech.su.ui.component.SettingsArrow
+import com.koshertech.su.ui.component.rememberConfirmDialog
+import com.koshertech.su.core.R as CoreR
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

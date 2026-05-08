@@ -1,8 +1,8 @@
-package com.topjohnwu.magisk.core
+package com.koshertech.su.core
 
 import android.os.Build
 import android.os.Process
-import com.topjohnwu.magisk.core.BuildConfig.APP_VERSION_CODE
+import com.koshertech.su.core.BuildConfig.APP_VERSION_CODE
 
 @Suppress("DEPRECATION")
 object Const {

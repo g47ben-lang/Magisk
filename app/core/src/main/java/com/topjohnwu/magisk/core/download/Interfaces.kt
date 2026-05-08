@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.download
+package com.koshertech.su.core.download
 
 import android.app.Notification
 import android.content.Context

@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core
+package com.koshertech.su.core
 
 import android.annotation.SuppressLint
 import android.annotation.TargetApi
@@ -8,12 +8,12 @@ import android.app.job.JobParameters
 import android.app.job.JobScheduler
 import android.content.Context
 import androidx.core.content.getSystemService
-import com.topjohnwu.magisk.core.base.BaseJobService
-import com.topjohnwu.magisk.core.di.ServiceLocator
-import com.topjohnwu.magisk.core.download.DownloadEngine
-import com.topjohnwu.magisk.core.download.DownloadSession
-import com.topjohnwu.magisk.core.download.Subject
-import com.topjohnwu.magisk.view.Notifications
+import com.koshertech.su.core.base.BaseJobService
+import com.koshertech.su.core.di.ServiceLocator
+import com.koshertech.su.core.download.DownloadEngine
+import com.koshertech.su.core.download.DownloadSession
+import com.koshertech.su.core.download.Subject
+import com.koshertech.su.view.Notifications
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

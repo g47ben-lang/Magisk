@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.net;
+package com.koshertech.su.net;
 
 public interface ResponseListener<T> {
     void onResponse(T response);

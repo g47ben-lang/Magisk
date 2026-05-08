@@ -1,6 +1,6 @@
-package com.topjohnwu.magisk.core.tasks
+package com.koshertech.su.core.tasks
 
-import com.topjohnwu.magisk.core.utils.DataSourceChannel
+import com.koshertech.su.core.utils.DataSourceChannel
 import org.apache.commons.compress.archivers.zip.ZipArchiveEntry
 import org.apache.commons.compress.archivers.zip.ZipFile
 import org.apache.commons.compress.archivers.zip.ZipMethod

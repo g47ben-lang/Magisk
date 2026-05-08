@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.superuser
+package com.koshertech.su.ui.superuser
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -39,9 +39,9 @@ import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.google.accompanist.drawablepainter.rememberDrawablePainter
-import com.topjohnwu.magisk.ui.navigation.LocalNavigator
-import com.topjohnwu.magisk.ui.navigation.Route
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.ui.navigation.LocalNavigator
+import com.koshertech.su.ui.navigation.Route
+import com.koshertech.su.core.R as CoreR
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

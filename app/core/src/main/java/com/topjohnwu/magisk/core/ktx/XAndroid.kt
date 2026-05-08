@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.ktx
+package com.koshertech.su.core.ktx
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -22,9 +22,9 @@ import android.view.View
 import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import androidx.core.content.getSystemService
-import com.topjohnwu.magisk.core.utils.LocaleSetting
-import com.topjohnwu.magisk.core.utils.RootUtils
-import com.topjohnwu.magisk.utils.APKInstall
+import com.koshertech.su.core.utils.LocaleSetting
+import com.koshertech.su.core.utils.RootUtils
+import com.koshertech.su.utils.APKInstall
 import com.topjohnwu.superuser.internal.UiThreadHandler
 import java.io.File
 

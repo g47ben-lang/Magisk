@@ -1,8 +1,8 @@
-package com.topjohnwu.magisk.ui.navigation
+package com.koshertech.su.ui.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import com.topjohnwu.magisk.arch.BaseViewModel
+import com.koshertech.su.arch.BaseViewModel
 
 @Composable
 fun CollectNavEvents(viewModel: BaseViewModel, navigator: Navigator) {

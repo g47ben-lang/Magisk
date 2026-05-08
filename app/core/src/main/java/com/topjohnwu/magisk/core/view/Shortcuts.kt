@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.view
+package com.koshertech.su.view
 
 import android.content.Context
 import android.content.Intent
@@ -11,11 +11,11 @@ import androidx.core.content.getSystemService
 import androidx.core.content.pm.ShortcutInfoCompat
 import androidx.core.content.pm.ShortcutManagerCompat
 import androidx.core.graphics.drawable.IconCompat
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.core.isRunningAsStub
-import com.topjohnwu.magisk.core.ktx.getBitmap
+import com.koshertech.su.core.Const
+import com.koshertech.su.core.Info
+import com.koshertech.su.core.R
+import com.koshertech.su.core.isRunningAsStub
+import com.koshertech.su.core.ktx.getBitmap
 
 object Shortcuts {
 

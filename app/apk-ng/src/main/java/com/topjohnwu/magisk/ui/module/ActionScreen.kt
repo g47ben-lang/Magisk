@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.module
+package com.koshertech.su.ui.module
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -18,9 +18,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.ui.terminal.TerminalScreen
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.R
+import com.koshertech.su.ui.terminal.TerminalScreen
+import com.koshertech.su.core.R as CoreR
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

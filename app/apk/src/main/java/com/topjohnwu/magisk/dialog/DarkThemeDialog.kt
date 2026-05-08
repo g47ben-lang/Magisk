@@ -1,13 +1,13 @@
-package com.topjohnwu.magisk.dialog
+package com.koshertech.su.dialog
 
 import android.app.Activity
 import androidx.appcompat.app.AppCompatDelegate
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.UIActivity
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.events.DialogBuilder
-import com.topjohnwu.magisk.view.MagiskDialog
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.R
+import com.koshertech.su.arch.UIActivity
+import com.koshertech.su.core.Config
+import com.koshertech.su.events.DialogBuilder
+import com.koshertech.su.view.MagiskDialog
+import com.koshertech.su.core.R as CoreR
 
 class DarkThemeDialog : DialogBuilder {
 

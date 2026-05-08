@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.navigation
+package com.koshertech.su.ui.navigation
 
 import android.os.Parcelable
 import androidx.navigation3.runtime.NavKey

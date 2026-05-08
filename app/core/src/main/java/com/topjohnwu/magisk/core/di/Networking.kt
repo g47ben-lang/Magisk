@@ -1,12 +1,12 @@
-package com.topjohnwu.magisk.core.di
+package com.koshertech.su.core.di
 
 import android.content.Context
 import com.squareup.moshi.Moshi
-import com.topjohnwu.magisk.ProviderInstaller
-import com.topjohnwu.magisk.core.BuildConfig
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.model.DateTimeAdapter
-import com.topjohnwu.magisk.core.utils.LocaleSetting
+import com.koshertech.su.ProviderInstaller
+import com.koshertech.su.core.BuildConfig
+import com.koshertech.su.core.Config
+import com.koshertech.su.core.model.DateTimeAdapter
+import com.koshertech.su.core.utils.LocaleSetting
 import okhttp3.Cache
 import okhttp3.ConnectionSpec
 import okhttp3.Dns

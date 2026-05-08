@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui
+package com.koshertech.su.ui
 
 import android.Manifest
 import android.Manifest.permission.REQUEST_INSTALL_PACKAGES
@@ -16,29 +16,29 @@ import androidx.core.view.isGone
 import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.NavDirections
-import com.topjohnwu.magisk.MainDirections
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.BaseViewModel
-import com.topjohnwu.magisk.arch.NavigationActivity
-import com.topjohnwu.magisk.arch.startAnimations
-import com.topjohnwu.magisk.arch.viewModel
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.base.SplashController
-import com.topjohnwu.magisk.core.base.SplashScreenHost
-import com.topjohnwu.magisk.core.isRunningAsStub
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.core.model.module.LocalModule
-import com.topjohnwu.magisk.core.tasks.AppMigration
-import com.topjohnwu.magisk.databinding.ActivityMainMd2Binding
-import com.topjohnwu.magisk.ui.home.HomeFragmentDirections
-import com.topjohnwu.magisk.ui.theme.Theme
-import com.topjohnwu.magisk.view.MagiskDialog
-import com.topjohnwu.magisk.view.Shortcuts
+import com.koshertech.su.MainDirections
+import com.koshertech.su.R
+import com.koshertech.su.arch.BaseViewModel
+import com.koshertech.su.arch.NavigationActivity
+import com.koshertech.su.arch.startAnimations
+import com.koshertech.su.arch.viewModel
+import com.koshertech.su.core.Config
+import com.koshertech.su.core.Const
+import com.koshertech.su.core.Info
+import com.koshertech.su.core.base.SplashController
+import com.koshertech.su.core.base.SplashScreenHost
+import com.koshertech.su.core.isRunningAsStub
+import com.koshertech.su.core.ktx.toast
+import com.koshertech.su.core.model.module.LocalModule
+import com.koshertech.su.core.tasks.AppMigration
+import com.koshertech.su.databinding.ActivityMainMd2Binding
+import com.koshertech.su.ui.home.HomeFragmentDirections
+import com.koshertech.su.ui.theme.Theme
+import com.koshertech.su.view.MagiskDialog
+import com.koshertech.su.view.Shortcuts
 import kotlinx.coroutines.launch
 import java.io.File
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.core.R as CoreR
 
 class MainViewModel : BaseViewModel()
 

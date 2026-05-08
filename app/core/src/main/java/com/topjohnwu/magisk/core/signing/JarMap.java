@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.signing;
+package com.koshertech.su.core.signing;
 
 import java.io.Closeable;
 import java.io.File;

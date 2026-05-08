@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.net;
+package com.koshertech.su.net;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

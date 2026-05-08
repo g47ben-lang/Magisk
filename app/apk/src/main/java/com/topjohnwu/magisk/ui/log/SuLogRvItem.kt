@@ -1,16 +1,16 @@
-package com.topjohnwu.magisk.ui.log
+package com.koshertech.su.ui.log
 
 import androidx.databinding.Bindable
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.ktx.timeDateFormat
-import com.topjohnwu.magisk.core.ktx.toTime
-import com.topjohnwu.magisk.core.model.su.SuLog
-import com.topjohnwu.magisk.databinding.DiffItem
-import com.topjohnwu.magisk.databinding.ObservableRvItem
-import com.topjohnwu.magisk.databinding.set
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.BR
+import com.koshertech.su.R
+import com.koshertech.su.core.AppContext
+import com.koshertech.su.core.ktx.timeDateFormat
+import com.koshertech.su.core.ktx.toTime
+import com.koshertech.su.core.model.su.SuLog
+import com.koshertech.su.databinding.DiffItem
+import com.koshertech.su.databinding.ObservableRvItem
+import com.koshertech.su.databinding.set
+import com.koshertech.su.core.R as CoreR
 
 class SuLogRvItem(val log: SuLog) : ObservableRvItem(), DiffItem<SuLogRvItem> {
 

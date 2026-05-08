@@ -1,14 +1,14 @@
-package com.topjohnwu.magisk.dialog
+package com.koshertech.su.dialog
 
 import android.content.Context
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.core.di.ServiceLocator
-import com.topjohnwu.magisk.core.download.DownloadEngine
-import com.topjohnwu.magisk.core.download.Subject
-import com.topjohnwu.magisk.core.model.module.OnlineModule
-import com.topjohnwu.magisk.ui.flash.FlashFragment
-import com.topjohnwu.magisk.view.MagiskDialog
-import com.topjohnwu.magisk.view.Notifications
+import com.koshertech.su.core.R
+import com.koshertech.su.core.di.ServiceLocator
+import com.koshertech.su.core.download.DownloadEngine
+import com.koshertech.su.core.download.Subject
+import com.koshertech.su.core.model.module.OnlineModule
+import com.koshertech.su.ui.flash.FlashFragment
+import com.koshertech.su.view.MagiskDialog
+import com.koshertech.su.view.Notifications
 import kotlinx.parcelize.Parcelize
 
 class OnlineModuleInstallDialog(private val item: OnlineModule) : MarkDownDialog() {

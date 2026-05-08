@@ -1,9 +1,9 @@
-package com.topjohnwu.magisk.core
+package com.koshertech.su.core
 
 import android.app.Application
 import android.content.Context
-import com.topjohnwu.magisk.StubApk
-import com.topjohnwu.magisk.core.utils.RootUtils
+import com.koshertech.su.StubApk
+import com.koshertech.su.core.utils.RootUtils
 
 open class App() : Application() {
 

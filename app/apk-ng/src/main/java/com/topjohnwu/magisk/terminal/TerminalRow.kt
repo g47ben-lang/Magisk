@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.terminal
+package com.koshertech.su.terminal
 
 import java.util.Arrays
 

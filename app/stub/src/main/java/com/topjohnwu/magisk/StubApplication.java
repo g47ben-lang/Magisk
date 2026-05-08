@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk;
+package com.koshertech.su;
 
 import android.app.Application;
 import android.content.Context;

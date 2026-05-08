@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.utils
+package com.koshertech.su.core.utils
 
 import android.annotation.SuppressLint
 import android.app.LocaleConfig
@@ -11,12 +11,12 @@ import android.os.Build
 import android.os.LocaleList
 import android.provider.Settings
 import androidx.annotation.RequiresApi
-import com.topjohnwu.magisk.core.AppApkPath
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.core.base.relaunch
-import com.topjohnwu.magisk.core.isRunningAsStub
+import com.koshertech.su.core.AppApkPath
+import com.koshertech.su.core.AppContext
+import com.koshertech.su.core.Config
+import com.koshertech.su.core.R
+import com.koshertech.su.core.base.relaunch
+import com.koshertech.su.core.isRunningAsStub
 import org.xmlpull.v1.XmlPullParser
 import java.util.Locale
 

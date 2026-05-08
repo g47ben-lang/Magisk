@@ -7,7 +7,7 @@
 
         <variable
             name="data"
-            type="com.topjohnwu.magisk.ui.settings.UpdateChannelUrl" />
+            type="com.koshertech.su.ui.settings.UpdateChannelUrl" />
 
     </data>
 

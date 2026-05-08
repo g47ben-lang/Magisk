@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk;
+package com.koshertech.su;
 
 import static android.os.Build.VERSION.SDK_INT;
 import static android.os.ParcelFileDescriptor.MODE_READ_ONLY;

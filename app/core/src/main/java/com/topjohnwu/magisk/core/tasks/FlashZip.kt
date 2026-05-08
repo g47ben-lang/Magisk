@@ -1,12 +1,12 @@
-package com.topjohnwu.magisk.core.tasks
+package com.koshertech.su.core.tasks
 
 import android.net.Uri
 import androidx.core.net.toFile
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.ktx.writeTo
-import com.topjohnwu.magisk.core.utils.MediaStoreUtils.displayName
-import com.topjohnwu.magisk.core.utils.MediaStoreUtils.inputStream
+import com.koshertech.su.core.AppContext
+import com.koshertech.su.core.Const
+import com.koshertech.su.core.ktx.writeTo
+import com.koshertech.su.core.utils.MediaStoreUtils.displayName
+import com.koshertech.su.core.utils.MediaStoreUtils.inputStream
 import com.topjohnwu.superuser.Shell
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

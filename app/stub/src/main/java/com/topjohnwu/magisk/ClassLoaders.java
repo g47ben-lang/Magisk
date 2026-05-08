@@ -1,10 +1,10 @@
-package com.topjohnwu.magisk;
+package com.koshertech.su;
 
 import android.content.pm.PackageInfo;
 
-import com.topjohnwu.magisk.dummy.DummyProvider;
-import com.topjohnwu.magisk.dummy.DummyReceiver;
-import com.topjohnwu.magisk.dummy.DummyService;
+import com.koshertech.su.dummy.DummyProvider;
+import com.koshertech.su.dummy.DummyReceiver;
+import com.koshertech.su.dummy.DummyService;
 
 import java.util.HashMap;
 import java.util.Map;

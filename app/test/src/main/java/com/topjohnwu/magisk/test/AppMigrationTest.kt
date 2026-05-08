@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.test
+package com.koshertech.su.test
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit
 class AppMigrationTest {
 
     companion object {
-        private const val APP_PKG = "com.topjohnwu.magisk"
+        private const val APP_PKG = "com.koshertech.su"
         private const val STUB_PKG = "repackaged.$APP_PKG"
         private const val RECEIVER_TIMEOUT = 20L
     }

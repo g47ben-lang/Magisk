@@ -1,12 +1,12 @@
-package com.topjohnwu.magisk.dialog
+package com.koshertech.su.dialog
 
 import android.net.Uri
-import com.topjohnwu.magisk.MainDirections
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.R
-import com.topjohnwu.magisk.events.DialogBuilder
-import com.topjohnwu.magisk.ui.module.ModuleViewModel
-import com.topjohnwu.magisk.view.MagiskDialog
+import com.koshertech.su.MainDirections
+import com.koshertech.su.core.Const
+import com.koshertech.su.core.R
+import com.koshertech.su.events.DialogBuilder
+import com.koshertech.su.ui.module.ModuleViewModel
+import com.koshertech.su.view.MagiskDialog
 
 class LocalModuleInstallDialog(
     private val viewModel: ModuleViewModel,

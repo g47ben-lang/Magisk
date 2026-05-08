@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.core.data.magiskdb
+package com.koshertech.su.core.data.magiskdb
 
 class SettingsDao : MagiskDB() {
 

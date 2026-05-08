@@ -1,10 +1,10 @@
-package com.topjohnwu.magisk.ui.theme
+package com.koshertech.su.ui.theme
 
-import com.topjohnwu.magisk.arch.BaseViewModel
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.dialog.DarkThemeDialog
-import com.topjohnwu.magisk.events.RecreateEvent
-import com.topjohnwu.magisk.view.TappableHeadlineItem
+import com.koshertech.su.arch.BaseViewModel
+import com.koshertech.su.core.Config
+import com.koshertech.su.dialog.DarkThemeDialog
+import com.koshertech.su.events.RecreateEvent
+import com.koshertech.su.view.TappableHeadlineItem
 
 class ThemeViewModel : BaseViewModel(), TappableHeadlineItem.Listener {
 

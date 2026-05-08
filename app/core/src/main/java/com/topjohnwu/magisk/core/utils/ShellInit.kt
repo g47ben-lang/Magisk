@@ -1,13 +1,13 @@
-package com.topjohnwu.magisk.core.utils
+package com.koshertech.su.core.utils
 
 import android.content.Context
-import com.topjohnwu.magisk.StubApk
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.isRunningAsStub
-import com.topjohnwu.magisk.core.ktx.cachedFile
-import com.topjohnwu.magisk.core.ktx.deviceProtectedContext
-import com.topjohnwu.magisk.core.ktx.writeTo
+import com.koshertech.su.StubApk
+import com.koshertech.su.core.Const
+import com.koshertech.su.core.Info
+import com.koshertech.su.core.isRunningAsStub
+import com.koshertech.su.core.ktx.cachedFile
+import com.koshertech.su.core.ktx.deviceProtectedContext
+import com.koshertech.su.core.ktx.writeTo
 import com.topjohnwu.superuser.Shell
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking

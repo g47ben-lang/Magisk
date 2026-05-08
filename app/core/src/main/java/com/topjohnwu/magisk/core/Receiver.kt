@@ -1,15 +1,15 @@
-package com.topjohnwu.magisk.core
+package com.koshertech.su.core
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import androidx.core.content.IntentCompat
-import com.topjohnwu.magisk.core.base.BaseReceiver
-import com.topjohnwu.magisk.core.di.ServiceLocator
-import com.topjohnwu.magisk.core.download.DownloadEngine
-import com.topjohnwu.magisk.core.download.Subject
-import com.topjohnwu.magisk.view.Notifications
-import com.topjohnwu.magisk.view.Shortcuts
+import com.koshertech.su.core.base.BaseReceiver
+import com.koshertech.su.core.di.ServiceLocator
+import com.koshertech.su.core.download.DownloadEngine
+import com.koshertech.su.core.download.Subject
+import com.koshertech.su.view.Notifications
+import com.koshertech.su.view.Shortcuts
 import com.topjohnwu.superuser.Shell
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

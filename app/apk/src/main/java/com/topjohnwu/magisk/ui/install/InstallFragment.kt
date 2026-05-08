@@ -1,10 +1,10 @@
-package com.topjohnwu.magisk.ui.install
+package com.koshertech.su.ui.install
 
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.BaseFragment
-import com.topjohnwu.magisk.arch.viewModel
-import com.topjohnwu.magisk.databinding.FragmentInstallMd2Binding
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.R
+import com.koshertech.su.arch.BaseFragment
+import com.koshertech.su.arch.viewModel
+import com.koshertech.su.databinding.FragmentInstallMd2Binding
+import com.koshertech.su.core.R as CoreR
 
 class InstallFragment : BaseFragment<FragmentInstallMd2Binding>() {
 

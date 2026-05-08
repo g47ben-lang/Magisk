@@ -5,15 +5,15 @@
 
     <data>
 
-        <import type="com.topjohnwu.magisk.R" />
+        <import type="com.koshertech.su.R" />
 
         <variable
             name="item"
-            type="com.topjohnwu.magisk.ui.module.LocalModuleRvItem" />
+            type="com.koshertech.su.ui.module.LocalModuleRvItem" />
 
         <variable
             name="viewModel"
-            type="com.topjohnwu.magisk.ui.module.ModuleViewModel" />
+            type="com.koshertech.su.ui.module.ModuleViewModel" />
 
     </data>
 

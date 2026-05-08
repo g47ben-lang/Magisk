@@ -274,10 +274,10 @@ fun Project.setupMainApk() {
     setupAppCommon()
 
     androidApp {
-        namespace = "com.topjohnwu.magisk"
+        namespace = "com.koshertech.su"
 
         defaultConfig {
-            applicationId = "com.topjohnwu.magisk"
+            applicationId = "com.koshertech.su"
             vectorDrawables.useSupportLibrary = true
             versionName = Config.version
             versionCode = Config.versionCode

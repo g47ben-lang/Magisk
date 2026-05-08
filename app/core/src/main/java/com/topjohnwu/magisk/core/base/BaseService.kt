@@ -1,10 +1,10 @@
-package com.topjohnwu.magisk.core.base
+package com.koshertech.su.core.base
 
 import android.app.Service
 import android.content.Context
 import android.content.Intent
 import android.os.IBinder
-import com.topjohnwu.magisk.core.patch
+import com.koshertech.su.core.patch
 
 open class BaseService : Service() {
     override fun attachBaseContext(base: Context) {

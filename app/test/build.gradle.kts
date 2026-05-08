@@ -3,10 +3,10 @@ plugins {
 }
 
 android {
-    namespace = "com.topjohnwu.magisk.test"
+    namespace = "com.koshertech.su.test"
 
     defaultConfig {
-        applicationId = "com.topjohnwu.magisk.test"
+        applicationId = "com.koshertech.su.test"
         versionCode = 1
         versionName = "1.0"
         proguardFile("proguard-rules.pro")

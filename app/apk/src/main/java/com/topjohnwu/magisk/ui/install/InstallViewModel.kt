@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.install
+package com.koshertech.su.ui.install
 
 import android.net.Uri
 import android.os.Bundle
@@ -10,21 +10,21 @@ import androidx.databinding.Bindable
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.BaseViewModel
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.BuildConfig.APP_VERSION_CODE
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.base.ContentResultCallback
-import com.topjohnwu.magisk.core.ktx.toast
-import com.topjohnwu.magisk.core.repository.NetworkService
-import com.topjohnwu.magisk.databinding.set
-import com.topjohnwu.magisk.dialog.DownloadDialog
-import com.topjohnwu.magisk.dialog.SecondSlotWarningDialog
-import com.topjohnwu.magisk.events.GetContentEvent
-import com.topjohnwu.magisk.ui.flash.FlashFragment
+import com.koshertech.su.BR
+import com.koshertech.su.R
+import com.koshertech.su.arch.BaseViewModel
+import com.koshertech.su.core.AppContext
+import com.koshertech.su.core.BuildConfig.APP_VERSION_CODE
+import com.koshertech.su.core.Config
+import com.koshertech.su.core.Info
+import com.koshertech.su.core.base.ContentResultCallback
+import com.koshertech.su.core.ktx.toast
+import com.koshertech.su.core.repository.NetworkService
+import com.koshertech.su.databinding.set
+import com.koshertech.su.dialog.DownloadDialog
+import com.koshertech.su.dialog.SecondSlotWarningDialog
+import com.koshertech.su.events.GetContentEvent
+import com.koshertech.su.ui.flash.FlashFragment
 import io.noties.markwon.Markwon
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -33,7 +33,7 @@ import kotlinx.parcelize.Parcelize
 import timber.log.Timber
 import java.io.File
 import java.io.IOException
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.core.R as CoreR
 
 class InstallViewModel(svc: NetworkService, markwon: Markwon) : BaseViewModel() {
 

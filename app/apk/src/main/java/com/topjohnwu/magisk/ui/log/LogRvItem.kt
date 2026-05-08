@@ -1,9 +1,9 @@
-package com.topjohnwu.magisk.ui.log
+package com.koshertech.su.ui.log
 
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.databinding.DiffItem
-import com.topjohnwu.magisk.databinding.ItemWrapper
-import com.topjohnwu.magisk.databinding.ObservableRvItem
+import com.koshertech.su.R
+import com.koshertech.su.databinding.DiffItem
+import com.koshertech.su.databinding.ItemWrapper
+import com.koshertech.su.databinding.ObservableRvItem
 
 class LogRvItem(
     override val item: String

@@ -1,12 +1,12 @@
-package com.topjohnwu.magisk.ui.terminal
+package com.koshertech.su.ui.terminal
 
 import android.graphics.Canvas
 import android.graphics.Paint
 import android.graphics.PorterDuff
 import android.graphics.Typeface
-import com.topjohnwu.magisk.terminal.TerminalEmulator
-import com.topjohnwu.magisk.terminal.TextStyle
-import com.topjohnwu.magisk.terminal.WcWidth
+import com.koshertech.su.terminal.TerminalEmulator
+import com.koshertech.su.terminal.TextStyle
+import com.koshertech.su.terminal.WcWidth
 
 /**
  * Renderer of a [TerminalEmulator] into a [Canvas].

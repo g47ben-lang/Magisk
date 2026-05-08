@@ -1,8 +1,8 @@
-package com.topjohnwu.magisk.core
+package com.koshertech.su.core
 
 import android.os.Bundle
-import com.topjohnwu.magisk.core.base.BaseProvider
-import com.topjohnwu.magisk.core.su.SuCallbackHandler
+import com.koshertech.su.core.base.BaseProvider
+import com.koshertech.su.core.su.SuCallbackHandler
 
 class Provider : BaseProvider() {
 

@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.ui.log
+package com.koshertech.su.ui.log
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -59,10 +59,10 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.google.accompanist.drawablepainter.rememberDrawablePainter
-import com.topjohnwu.magisk.core.ktx.timeDateFormat
-import com.topjohnwu.magisk.core.ktx.toTime
-import com.topjohnwu.magisk.core.model.su.SuLog
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.core.ktx.timeDateFormat
+import com.koshertech.su.core.ktx.toTime
+import com.koshertech.su.core.model.su.SuLog
+import com.koshertech.su.core.R as CoreR
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

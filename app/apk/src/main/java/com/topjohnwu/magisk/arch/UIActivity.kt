@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.arch
+package com.koshertech.su.arch
 
 import android.content.Context
 import android.content.res.Resources
@@ -17,14 +17,14 @@ import androidx.interpolator.view.animation.FastOutSlowInInterpolator
 import androidx.transition.AutoTransition
 import androidx.transition.TransitionManager
 import com.google.android.material.snackbar.Snackbar
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.core.Config
-import com.topjohnwu.magisk.core.base.ActivityExtension
-import com.topjohnwu.magisk.core.base.IActivityExtension
-import com.topjohnwu.magisk.core.isRunningAsStub
-import com.topjohnwu.magisk.core.ktx.reflectField
-import com.topjohnwu.magisk.core.wrap
+import com.koshertech.su.BR
+import com.koshertech.su.R
+import com.koshertech.su.core.Config
+import com.koshertech.su.core.base.ActivityExtension
+import com.koshertech.su.core.base.IActivityExtension
+import com.koshertech.su.core.isRunningAsStub
+import com.koshertech.su.core.ktx.reflectField
+import com.koshertech.su.core.wrap
 import rikka.insets.WindowInsetsHelper
 import rikka.layoutinflater.view.LayoutInflaterFactory
 

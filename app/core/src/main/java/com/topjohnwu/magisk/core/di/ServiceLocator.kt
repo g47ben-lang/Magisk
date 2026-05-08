@@ -1,18 +1,18 @@
-package com.topjohnwu.magisk.core.di
+package com.koshertech.su.core.di
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.text.method.LinkMovementMethod
 import androidx.room.Room
-import com.topjohnwu.magisk.core.AppContext
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.data.SuLogDatabase
-import com.topjohnwu.magisk.core.data.magiskdb.PolicyDao
-import com.topjohnwu.magisk.core.data.magiskdb.SettingsDao
-import com.topjohnwu.magisk.core.data.magiskdb.StringDao
-import com.topjohnwu.magisk.core.ktx.deviceProtectedContext
-import com.topjohnwu.magisk.core.repository.LogRepository
-import com.topjohnwu.magisk.core.repository.NetworkService
+import com.koshertech.su.core.AppContext
+import com.koshertech.su.core.Const
+import com.koshertech.su.core.data.SuLogDatabase
+import com.koshertech.su.core.data.magiskdb.PolicyDao
+import com.koshertech.su.core.data.magiskdb.SettingsDao
+import com.koshertech.su.core.data.magiskdb.StringDao
+import com.koshertech.su.core.ktx.deviceProtectedContext
+import com.koshertech.su.core.repository.LogRepository
+import com.koshertech.su.core.repository.NetworkService
 import io.noties.markwon.Markwon
 import io.noties.markwon.utils.NoCopySpannableFactory
 

@@ -1,4 +1,4 @@
-package com.topjohnwu.magisk.databinding
+package com.koshertech.su.databinding
 
 import android.animation.ValueAnimator
 import android.content.res.ColorStateList
@@ -36,10 +36,10 @@ import com.google.android.material.card.MaterialCardView
 import com.google.android.material.chip.Chip
 import com.google.android.material.slider.Slider
 import com.google.android.material.textfield.TextInputLayout
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.core.di.ServiceLocator
-import com.topjohnwu.magisk.core.model.su.SuPolicy
-import com.topjohnwu.magisk.core.utils.TextHolder
+import com.koshertech.su.R
+import com.koshertech.su.core.di.ServiceLocator
+import com.koshertech.su.core.model.su.SuPolicy
+import com.koshertech.su.core.utils.TextHolder
 import com.topjohnwu.superuser.internal.UiThreadHandler
 import com.topjohnwu.widget.IndeterminateCheckBox
 import kotlin.math.roundToInt

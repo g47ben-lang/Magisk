@@ -1,30 +1,30 @@
-package com.topjohnwu.magisk.ui.module
+package com.koshertech.su.ui.module
 
 import android.net.Uri
 import androidx.databinding.Bindable
 import androidx.lifecycle.MutableLiveData
-import com.topjohnwu.magisk.BR
-import com.topjohnwu.magisk.MainDirections
-import com.topjohnwu.magisk.R
-import com.topjohnwu.magisk.arch.AsyncLoadViewModel
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.Info
-import com.topjohnwu.magisk.core.base.ContentResultCallback
-import com.topjohnwu.magisk.core.model.module.LocalModule
-import com.topjohnwu.magisk.core.model.module.OnlineModule
-import com.topjohnwu.magisk.databinding.MergeObservableList
-import com.topjohnwu.magisk.databinding.RvItem
-import com.topjohnwu.magisk.databinding.bindExtra
-import com.topjohnwu.magisk.databinding.diffList
-import com.topjohnwu.magisk.databinding.set
-import com.topjohnwu.magisk.dialog.LocalModuleInstallDialog
-import com.topjohnwu.magisk.dialog.OnlineModuleInstallDialog
-import com.topjohnwu.magisk.events.GetContentEvent
-import com.topjohnwu.magisk.events.SnackbarEvent
+import com.koshertech.su.BR
+import com.koshertech.su.MainDirections
+import com.koshertech.su.R
+import com.koshertech.su.arch.AsyncLoadViewModel
+import com.koshertech.su.core.Const
+import com.koshertech.su.core.Info
+import com.koshertech.su.core.base.ContentResultCallback
+import com.koshertech.su.core.model.module.LocalModule
+import com.koshertech.su.core.model.module.OnlineModule
+import com.koshertech.su.databinding.MergeObservableList
+import com.koshertech.su.databinding.RvItem
+import com.koshertech.su.databinding.bindExtra
+import com.koshertech.su.databinding.diffList
+import com.koshertech.su.databinding.set
+import com.koshertech.su.dialog.LocalModuleInstallDialog
+import com.koshertech.su.dialog.OnlineModuleInstallDialog
+import com.koshertech.su.events.GetContentEvent
+import com.koshertech.su.events.SnackbarEvent
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.parcelize.Parcelize
-import com.topjohnwu.magisk.core.R as CoreR
+import com.koshertech.su.core.R as CoreR
 
 class ModuleViewModel : AsyncLoadViewModel() {
 

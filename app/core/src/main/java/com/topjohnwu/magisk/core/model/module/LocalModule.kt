@@ -1,9 +1,9 @@
-package com.topjohnwu.magisk.core.model.module
+package com.koshertech.su.core.model.module
 
 import com.squareup.moshi.JsonDataException
-import com.topjohnwu.magisk.core.Const
-import com.topjohnwu.magisk.core.di.ServiceLocator
-import com.topjohnwu.magisk.core.utils.RootUtils
+import com.koshertech.su.core.Const
+import com.koshertech.su.core.di.ServiceLocator
+import com.koshertech.su.core.utils.RootUtils
 import com.topjohnwu.superuser.Shell
 import com.topjohnwu.superuser.nio.ExtendedFile
 import kotlinx.coroutines.Dispatchers
