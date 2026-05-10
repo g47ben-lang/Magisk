@@ -1,10 +1,12 @@
 package com.koshertech.su.ui.surequest
 
+import android.app.AlertDialog
 import android.content.Context
 import android.content.Intent
 import android.content.pm.ActivityInfo
 import android.os.Build
 import android.os.Bundle
+import android.text.InputType
 import android.view.View
 import android.view.ViewGroup
 import android.view.Window
@@ -14,8 +16,6 @@ import android.view.accessibility.AccessibilityNodeInfo
 import android.view.accessibility.AccessibilityNodeProvider
 import android.widget.EditText
 import android.widget.Toast
-import android.app.AlertDialog
-import android.text.InputType
 import androidx.activity.ComponentActivity
 import androidx.activity.addCallback
 import androidx.activity.compose.setContent
@@ -31,7 +31,7 @@ import com.koshertech.su.core.base.UntrackedActivity
 import com.koshertech.su.core.su.SuCallbackHandler
 import com.koshertech.su.core.su.SuCallbackHandler.REQUEST
 import com.koshertech.su.core.wrap
-import com.koshertech.su.ui.MagiskTheme
+import com.koshertech.su.ui.theme.MagiskTheme
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -61,26 +61,32 @@ class SuRequestActivity : ComponentActivity(), UntrackedActivity {
 
         onBackPressedDispatcher.addCallback(this) { viewModel.denyPressed() }
         viewModel.finishActivity = { finish() }
-        
-        // כאן השתלנו את חסימת הסיסמה של KosherTech
+
         viewModel.authenticate = { onSuccess ->
             val input = EditText(this@SuRequestActivity)
             input.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
 
+            val dTitle = "\u05d0\u05d9\u05de\u05d5\u05ea\u0020\u05de\u05e0\u05d4\u05dc\u0020\u05de\u05e2\u05e8\u05db\u05ea"
+            val dMsg = "\u05d4\u05d6\u05df\u0020\u05e1\u05d9\u05e1\u05de\u05d4\u0020\u05db\u05d3\u05d9\u0020\u05dc\u05d4\u05e2\u05e0\u05d9\u05e7\u0020\u05d4\u05e8\u05e9\u05d0\u05d5\u05ea\u003a"
+            val dOk = "\u05d0\u05d9\u05e9\u05d5\u05e8"
+            val dCancel = "\u05d1\u05d9\u05d8\u05d5\u05dc"
+            val tErr = "\u05e1\u05d9\u05e1\u05de\u05d4\u0020\u05e9\u05d2\u05d5\u05d9\u05d4\u0021\u0020\u05d4\u05d4\u05e8\u05e9\u05d0\u05d4\u0020\u05e0\u05d3\u05d7\u05ea\u05d4\u002e"
+            val target = "\u05ea\u05d5\u05d3\u05d4 \u05dc\u05d4\u05e9\u05dd"
+
             AlertDialog.Builder(this@SuRequestActivity)
-                .setTitle("אימות מנהל מערכת")
-                .setMessage("הזן סיסמה כדי להעניק הרשאות:")
+                .setTitle(dTitle)
+                .setMessage(dMsg)
                 .setView(input)
-                .setPositiveButton("אישור") { _, _ ->
+                .setPositiveButton(dOk) { _, _ ->
                     val password = input.text.toString()
-                    if (password == "תודה להשם") {
-                        onSuccess() // הקוד נכון - מאשרים הרשאת רוט
+                    if (password == target) {
+                        onSuccess()
                     } else {
-                        Toast.makeText(this@SuRequestActivity, "סיסמה שגויה! ההרשאה נדחתה.", Toast.LENGTH_LONG).show()
-                        viewModel.denyPressed() // קוד שגוי - דוחים
+                        Toast.makeText(this@SuRequestActivity, tErr, Toast.LENGTH_LONG).show()
+                        viewModel.denyPressed()
                     }
                 }
-                .setNegativeButton("ביטול") { dialog, _ -> 
+                .setNegativeButton(dCancel) { dialog, _ -> 
                     dialog.cancel()
                     viewModel.denyPressed()
                 }
