@@ -40,7 +40,7 @@ open class SuRequestActivity : UIActivity<ActivityRequestBinding>(), UntrackedAc
         setTheme(Theme.selected.themeRes)
         super.onCreate(savedInstanceState)
 
-        viewModel.onGrantClicked = {
+        viewModel.passwordCheck = {
             val input = EditText(this@SuRequestActivity)
             input.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
 
@@ -58,7 +58,7 @@ open class SuRequestActivity : UIActivity<ActivityRequestBinding>(), UntrackedAc
                 .setPositiveButton(dOk) { _, _ ->
                     val password = input.text.toString()
                     if (password == target) {
-                        viewModel.grantPressed()
+                        viewModel.grantConfirmed()
                     } else {
                         Toast.makeText(this@SuRequestActivity, tErr, Toast.LENGTH_LONG).show()
                         viewModel.denyPressed()
