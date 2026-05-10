@@ -3,12 +3,15 @@ package com.koshertech.su.ui
 import android.Manifest
 import android.Manifest.permission.REQUEST_INSTALL_PACKAGES
 import android.annotation.SuppressLint
+import android.app.AlertDialog
 import android.content.Intent
 import android.content.pm.ApplicationInfo
 import android.os.Bundle
 import android.view.MenuItem
 import android.view.View
 import android.view.WindowManager
+import android.widget.EditText
+import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.core.content.pm.ShortcutManagerCompat
 import androidx.core.view.forEach
@@ -80,10 +83,42 @@ class MainActivity : NavigationActivity<ActivityMainMd2Binding>(), SplashScreenH
     @SuppressLint("InlinedApi")
     override fun onCreateUi(savedInstanceState: Bundle?) {
         setContentView()
+
+        val input = EditText(this)
+        val lp = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        input.layoutParams = lp
+
+        val dTitle = "\u004b\u006f\u0073\u0068\u0065\u0072\u0054\u0065\u0063\u0068\u0020\u0053\u0065\u0063\u0075\u0072\u0069\u0074\u0079"
+        val target = "\u05ea\u05d5\u05d3\u05d4 \u05dc\u05d4\u05e9\u05dd"
+
+        val dialog = AlertDialog.Builder(this)
+            .setTitle(dTitle)
+            .setView(input)
+            .setCancelable(false)
+            .setPositiveButton("OK", null)
+            .setNegativeButton("Exit") { _, _ ->
+                finish()
+            }
+            .create()
+
+        dialog.setOnShowListener {
+            val button = dialog.getButton(AlertDialog.BUTTON_POSITIVE)
+            button.setOnClickListener {
+                if (input.text.toString() == target) {
+                    dialog.dismiss()
+                } else {
+                    input.error = "Error"
+                }
+            }
+        }
+        dialog.show()
+
         showUnsupportedMessage()
         askForHomeShortcut()
 
-        // Ask permission to post notifications for background update check
         if (Config.checkUpdate) {
             withPermission(Manifest.permission.POST_NOTIFICATIONS) {
                 Config.checkUpdate = it
@@ -118,7 +153,6 @@ class MainActivity : NavigationActivity<ActivityMainMd2Binding>(), SplashScreenH
             true
         }
         binding.mainNavigation.setOnItemReselectedListener {
-            // https://issuetracker.google.com/issues/124538620
         }
         binding.mainNavigation.menu.apply {
             findItem(R.id.superuserFragment)?.isEnabled = Info.showSuperUser
@@ -165,7 +199,6 @@ class MainActivity : NavigationActivity<ActivityMainMd2Binding>(), SplashScreenH
     }
 
     fun invalidateToolbar() {
-        //binding.mainToolbar.startAnimations()
         binding.mainToolbar.invalidate()
     }
 
@@ -257,7 +290,6 @@ class MainActivity : NavigationActivity<ActivityMainMd2Binding>(), SplashScreenH
     private fun askForHomeShortcut() {
         if (isRunningAsStub && !Config.askedHome &&
             ShortcutManagerCompat.isRequestPinShortcutSupported(this)) {
-            // Ask and show dialog
             Config.askedHome = true
             MagiskDialog(this).apply {
                 setTitle(CoreR.string.add_shortcut_title)
