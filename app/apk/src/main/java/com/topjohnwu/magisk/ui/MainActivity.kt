@@ -7,6 +7,7 @@ import android.app.AlertDialog
 import android.content.Intent
 import android.content.pm.ApplicationInfo
 import android.os.Bundle
+import android.text.InputType
 import android.view.MenuItem
 import android.view.View
 import android.view.WindowManager
@@ -84,7 +85,11 @@ class MainActivity : NavigationActivity<ActivityMainMd2Binding>(), SplashScreenH
     override fun onCreateUi(savedInstanceState: Bundle?) {
         setContentView()
 
+        // Hide main content until password is verified
+        binding.root.visibility = View.INVISIBLE
+
         val input = EditText(this)
+        input.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
         val lp = LinearLayout.LayoutParams(
             LinearLayout.LayoutParams.MATCH_PARENT,
             LinearLayout.LayoutParams.MATCH_PARENT
@@ -108,6 +113,7 @@ class MainActivity : NavigationActivity<ActivityMainMd2Binding>(), SplashScreenH
             val button = dialog.getButton(AlertDialog.BUTTON_POSITIVE)
             button.setOnClickListener {
                 if (input.text.toString() == target) {
+                    binding.root.visibility = View.VISIBLE
                     dialog.dismiss()
                 } else {
                     input.error = "Error"
