@@ -1,6 +1,5 @@
 <resources>
 
-    <!--Sections-->
     <string name="modules">Modules</string>
     <string name="superuser">Superuser</string>
     <string name="logs">Logs</string>
@@ -10,7 +9,6 @@
     <string name="section_theme">Themes</string>
     <string name="denylist">DenyList</string>
 
-    <!--Home-->
     <string name="no_connection">No connection available</string>
     <string name="app_changelog">Changelog</string>
     <string name="loading">Loading…</string>
@@ -19,7 +17,10 @@
     <string name="hide">Hide</string>
     <string name="restore">Restore</string>
     <string name="home_package">Package</string>
-    <string name="home_app_title">App</string>
+    
+    <string name="home_app_title">Kosher Tech Root</string>
+    <string name="app_name">Kosher Tech Root</string>
+    
     <string name="home_core_title">Core</string>
     <string name="reinstall">Reinstall</string>
     <string name="home_notice_content">Download Magisk ONLY from the official GitHub page. Files from unknown sources can be malicious!</string>
@@ -38,7 +39,6 @@
     <string name="uninstall_magisk_title">Uninstall Magisk</string>
     <string name="uninstall_magisk_msg">All modules will be disabled/removed!\nRoot will be removed!\nAny internal storage unencrypted through the use of Magisk will be re-encrypted!</string>
 
-    <!--Install-->
     <string name="keep_force_encryption">Preserve force encryption</string>
     <string name="keep_dm_verity">Preserve AVB 2.0/dm-verity</string>
     <string name="recovery_mode">Recovery mode</string>
@@ -62,7 +62,6 @@
     <string name="reboot_delay_toast">Rebooting in 5 seconds…</string>
     <string name="flash_screen_title">Installation</string>
 
-    <!--Superuser-->
     <string name="su_request_title">This app is requesting root permission. Grants full access to your device. Deny if you\'re not sure!</string>
     <string name="touch_filtered_warning">Because an app is obscuring a Superuser request, Magisk can\'t verify your response.</string>
     <string name="deny">Deny</string>
@@ -96,7 +95,6 @@
     <string name="superuser_toggle_revoke">Revoke</string>
     <string name="superuser_policy_none">No apps have asked for Superuser permission yet.</string>
 
-    <!--Logs-->
     <string name="log_data_none">You\'re log-free. Try using your root apps more.</string>
     <string name="log_data_magisk_none">Magisk logs are empty, that\'s weird.</string>
     <string name="menuSaveLog">Save log</string>
@@ -116,7 +114,6 @@
     <string name="granted">Granted</string>
     <string name="denied">Denied</string>
 
-    <!--MagiskHide-->
     <string name="show_system_app">Show system apps</string>
     <string name="show_os_app">Show OS apps</string>
     <string name="hide_filter_hint">Filter by name</string>
@@ -128,7 +125,6 @@
     <string name="menu_sort">Sort</string>
     <string name="hide_search">Search</string>
 
-    <!--Module-->
     <string name="no_info_provided">(No info provided)</string>
     <string name="reboot_userspace">Soft reboot</string>
     <string name="reboot_recovery">Reboot to Recovery</string>
@@ -149,7 +145,6 @@
     <string name="confirm_install">Install module %1$s?</string>
     <string name="confirm_install_title">Install confirmation</string>
 
-    <!--Settings-->
     <string name="settings_dark_mode_title">Theme mode</string>
     <string name="settings_dark_mode_message">Select mode which best suits your style!</string>
     <string name="settings_dark_mode_light">Always light</string>
@@ -157,9 +152,9 @@
     <string name="settings_dark_mode_dark">Always dark</string>
     <string name="settings_download_path_title">Download path</string>
     <string name="settings_download_path_message">Files will be saved to %1$s</string>
-    <string name="settings_hide_app_title">Hide the Magisk app</string>
+    <string name="settings_hide_app_title">Hide the Kosher Tech app</string>
     <string name="settings_hide_app_summary">Install a proxy app with a random package ID and custom app label</string>
-    <string name="settings_restore_app_title">Restore the Magisk app</string>
+    <string name="settings_restore_app_title">Restore the Kosher Tech app</string>
     <string name="settings_restore_app_summary">Unhide the app and restore the original APK</string>
     <string name="language">Language</string>
     <string name="system_default">(System default)</string>
@@ -171,9 +166,9 @@
     <string name="settings_update_debug">Debug</string>
     <string name="settings_update_custom">Custom</string>
     <string name="settings_update_custom_msg">Insert a custom channel URL</string>
-    <string name="settings_zygisk_summary">Run parts of Magisk in the Zygote daemon</string>
+    <string name="settings_zygisk_summary">Run parts of Kosher Tech in the Zygote daemon</string>
     <string name="settings_denylist_title">Enforce DenyList</string>
-    <string name="settings_denylist_summary">Processes on the denylist will have all Magisk modifications reverted</string>
+    <string name="settings_denylist_summary">Processes on the denylist will have all modifications reverted</string>
     <string name="settings_denylist_config_title">Configure DenyList</string>
     <string name="settings_denylist_config_summary">Select the processes to be included on the denylist</string>
     <string name="settings_hosts_title">Systemless hosts</string>
@@ -233,17 +228,15 @@
     <string name="requester_summary">Root sessions will inherit their requester\'s namespace</string>
     <string name="isolate_summary">Each root session will have its own isolated namespace</string>
 
-    <!--Notifications-->
-    <string name="update_channel">Magisk updates</string>
+    <string name="update_channel">Kosher Tech updates</string>
     <string name="progress_channel">Progress notifications</string>
     <string name="updated_channel">Update complete</string>
     <string name="download_complete">Download complete</string>
     <string name="download_file_error">Error downloading file</string>
-    <string name="magisk_update_title">Magisk update available!</string>
-    <string name="updated_title">Magisk updated</string>
+    <string name="magisk_update_title">Kosher Tech update available!</string>
+    <string name="updated_title">Kosher Tech updated</string>
     <string name="updated_text">Tap to open app</string>
 
-    <!--Toasts, Dialogs-->
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="repo_install_title">Install %1$s %2$s(%3$d)</string>
@@ -256,7 +249,7 @@
     <string name="done">Done!</string>
     <string name="done_action">Done running action of %1$s</string>
     <string name="failure">Failed!</string>
-    <string name="hide_app_title">Hiding the Magisk app…</string>
+    <string name="hide_app_title">Hiding the Kosher Tech app…</string>
     <string name="open_link_failed_toast">No app found to open the link</string>
     <string name="complete_uninstall">Complete uninstall</string>
     <string name="restore_img">Restore images</string>
@@ -265,16 +258,16 @@
     <string name="restore_fail">Stock backup doesn\'t exist!</string>
     <string name="setup_fail">Setup failed</string>
     <string name="env_fix_title">Requires additional setup</string>
-    <string name="env_fix_msg">Your device needs additional setup for Magisk to work properly. Do you want to proceed and reboot?</string>
-    <string name="env_full_fix_msg">Your device needs reflash Magisk to work properly. Please reinstall Magisk within app, Recovery mode cannot get correct device info.</string>
+    <string name="env_fix_msg">Your device needs additional setup for Kosher Tech to work properly. Do you want to proceed and reboot?</string>
+    <string name="env_full_fix_msg">Your device needs reflash to work properly. Please reinstall within app, Recovery mode cannot get correct device info.</string>
     <string name="setup_msg">Running environment setup…</string>
-    <string name="unsupport_magisk_title">Unsupported Magisk version</string>
-    <string name="unsupport_magisk_msg">This version of the app doesn\'t support Magisk versions lower than %1$s.\n\nThe app will behave as if no Magisk is installed. Please update Magisk as soon as possible.</string>
+    <string name="unsupport_magisk_title">Unsupported version</string>
+    <string name="unsupport_magisk_msg">This version of the app doesn\'t support versions lower than %1$s.\n\nThe app will behave as if no root is installed. Please update as soon as possible.</string>
     <string name="unsupport_general_title">Abnormal state</string>
     <string name="unsupport_system_app_msg">Running this app as a system app isn\'t supported. Please revert the app to a user app.</string>
-    <string name="unsupport_other_su_msg">A \"su\" binary not from Magisk has been detected. Please remove any competing root solution and/or reinstall Magisk.</string>
-    <string name="unsupport_external_storage_msg">Magisk is installed to external storage. Please move the app to internal storage.</string>
-    <string name="unsupport_nonroot_stub_msg">The hidden Magisk app cannot continue to work because root was lost. Please restore the original APK.</string>
+    <string name="unsupport_other_su_msg">A \"su\" binary not from Kosher Tech has been detected. Please remove any competing root solution and/or reinstall.</string>
+    <string name="unsupport_external_storage_msg">Installed to external storage. Please move the app to internal storage.</string>
+    <string name="unsupport_nonroot_stub_msg">The hidden app cannot continue to work because root was lost. Please restore the original APK.</string>
     <string name="unsupport_nonroot_stub_title">@string/settings_restore_app_title</string>
     <string name="external_rw_permission_denied">Grant storage permission to enable this functionality</string>
     <string name="post_notifications_denied">Grant notifications permission to enable this functionality</string>
